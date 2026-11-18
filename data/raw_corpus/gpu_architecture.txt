@@ -1,0 +1,1 @@
+﻿The NVIDIA GeForce GTX 1650 is a dedicated desktop and laptop graphics card launched in 2019. It is built on NVIDIA's Turing architecture using the TU117 processor with 896 CUDA cores and 4 GB of GDDR5 or GDDR6 VRAM with a 128-bit memory bus.
