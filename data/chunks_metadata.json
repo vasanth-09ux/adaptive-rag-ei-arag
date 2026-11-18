@@ -1,0 +1,86 @@
+[
+  {
+    "chunk_id": 0,
+    "doc_name": "cellular_biology.txt",
+    "text": "Cellular biology examines the structural, biochemical, and physiological properties of cells, which are the fundamental units of all biological organisms. Organisms are classified into prokaryotes, such as bacteria and archaea that lack a membrane-enclosed nucleus, and eukaryotes, including plants, animals, and fungi, which contain organized membrane-bound nuclei and specialized organelles. The cell membrane consists of a phospholipid bilayer with embedded transport proteins that selectively regulate the passage of molecules into and out of the cytoplasm. Mitochondria generate chemical energy in the form of adenosine triphosphate (ATP) through cellular respiration and oxidative phosphorylation, functioning as the power plants of eukaryotic cells. The endoplasmic reticulum is categorized into rough endoplasmic reticulum, which is studded with ribosomes for protein synthesis, and smooth endoplasmic reticulum, which synthesizes lipids and phospholipids. The cell nucleus contains deoxyribonucleic acid (DNA), which encodes genetic instructions across four nitrogenous nucleotide bases: adenine (A), thymine (T), cytosine (C), and guanine (G). Mitosis is the process of cell division that results in two genetically identical diploid daughter cells.",
+    "word_count": 167,
+    "char_count": 1259
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "chemical_elements.txt",
+    "text": "The periodic table organizes all known chemical elements in order of increasing atomic number. Hydrogen is the lightest and most abundant chemical element in the universe, possessing an atomic number of 1, standard atomic weight of 1.008, and three natural isotopes: protium, deuterium, and radioactive tritium. Helium is the second element with atomic number 2, characterized as a colorless noble gas with the lowest boiling point of any element at -268.93 degrees Celsius. Carbon has an atomic number of 6 and forms diverse allotropes with distinct physical properties, including diamond, graphite, and graphene. Gold is a dense transition metal with the chemical symbol Au, derived from the Latin word aurum, having an atomic number of 79 and a melting point of 1064.18 degrees Celsius. Russian chemist Dmitri Mendeleev created the first widely recognized periodic table in 1869, arranging elements by atomic mass and accurately predicting the properties of undiscovered elements. The modern periodic table contains 118 confirmed chemical elements, with Oganesson (symbol Og, atomic number 118) being the heaviest synthetic element officially recognized by IUPAC.",
+    "word_count": 175,
+    "char_count": 1166
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "computer_architecture.txt",
+    "text": "Computer architecture defines the conceptual structure and functional behavior of computer hardware systems. In 1945, mathematician John von Neumann published a foundational report describing the Von Neumann architecture, which consists of a Central Processing Unit (CPU), memory, and input/output mechanisms sharing common address and data buses. The CPU is internally composed of an Arithmetic Logic Unit (ALU) for arithmetic and logical operations, a Control Unit (CU) for instruction sequencing, and internal processor registers. The memory hierarchy bridges the latency gap between CPU execution speed and secondary storage, structured hierarchically from fastest to slowest: registers, L1 cache, L2 cache, L3 cache, main memory (Dynamic RAM), and non-volatile storage devices like solid-state drives (SSDs). The fundamental instruction execution cycle comprises four sequential phases: Fetch, Decode, Execute, and Writeback. In processor instruction set design, Reduced Instruction Set Computers (RISC), such as ARM architecture, prioritize small sets of simple instructions executing in single cycles, whereas Complex Instruction Set Computers (CISC), such as x86, support variable-length instructions performing multi-step operations. Amdahl's Law is a fundamental formula in computer architecture that predicts the theoretical maximum speedup achievable through parallel processing.",
+    "word_count": 184,
+    "char_count": 1391
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "gpu_architecture.txt",
+    "text": "The NVIDIA GeForce GTX 1650 is a dedicated desktop and laptop graphics card launched in 2019. It is built on NVIDIA's Turing architecture using the TU117 processor with 896 CUDA cores and 4 GB of GDDR5 or GDDR6 VRAM with a 128-bit memory bus.",
+    "word_count": 44,
+    "char_count": 242
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "historical_event.txt",
+    "text": "Apollo 11 was the historic American spaceflight mission that first landed humans on the Moon. Launched by NASA on July 16, 1969, from Kennedy Space Center in Florida, the spacecraft was propelled into space by the three-stage Saturn V rocket. The mission crew consisted of Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin \"Buzz\" Aldrin. On July 20, 1969, the Lunar Module Eagle separated from the Command Module Columbia and touched down on the lunar surface in the Sea of Tranquility (Mare Tranquillitatis). On July 21, 1969, Neil Armstrong became the first person to walk on the Moon, famously declaring: \"That's one small step for man, one giant leap for mankind.\" Buzz Aldrin joined him nineteen minutes later. The two astronauts spent a total of 21 hours and 36 minutes on the lunar surface, conducting extravehicular activity for 2 hours and 31 minutes and collecting 21.55 kilograms of lunar rocks and soil samples. The Command Module Columbia safely splashed down in the Pacific Ocean on July 24, 1969, approximately 812 nautical miles southwest of Hawaii, where the crew was recovered by the aircraft carrier USS Hornet.",
+    "word_count": 191,
+    "char_count": 1173
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "machine_learning_fundamentals.txt",
+    "text": "Machine learning (ML) is a branch of artificial intelligence focused on building algorithms that learn patterns from data to make predictions or decisions. Machine learning is primarily categorized into supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled training datasets to learn mapping functions, commonly applied in classification and regression tasks. Common loss functions include Mean Squared Error (MSE) for regression and Cross-Entropy loss for classification. Optimization algorithms, particularly Gradient Descent and Stochastic Gradient Descent (SGD), iteratively update model weights to minimize loss based on learning rate hyperparameters. In deep learning, the backpropagation algorithm, popularized in 1986 by David Rumelhart, Geoffrey Hinton, and Ronald Williams, calculates gradients of the loss function across neural network layers using the chain rule of calculus. Overfitting occurs when a model learns noise from training data, which can be mitigated through regularization techniques such as L1 regularization (Lasso), L2 regularization (Ridge), and Dropout. In 2017, the Transformer architecture was introduced in the seminal research paper \"Attention Is All You Need\" by Ashish Vaswani and colleagues at Google, replacing recurrent networks with self-attention mechanisms for natural language processing tasks.",
+    "word_count": 185,
+    "char_count": 1390
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "paris_geography.txt",
+    "text": "Paris is the capital and most populous city of France. Situated on the Seine River in northern France, it is the center of the Île-de-France region. Known as the City of Light, Paris is internationally renowned for its art, gastronomy, and cultural landmarks including the Eiffel Tower and Louvre Museum.",
+    "word_count": 50,
+    "char_count": 304
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "programming_language_history.txt",
+    "text": "The history of high-level programming languages spans several decades of technological evolution. In 1957, John Backus and his team at IBM released Fortran (Formula Translation), widely recognized as the first high-level programming language designed for scientific and numerical computation. In 1958, John McCarthy created Lisp at the Massachusetts Institute of Technology (MIT), pioneering functional programming concepts and automatic garbage collection. Between 1969 and 1973, Dennis Ritchie developed the C programming language at Bell Labs, creating a structured imperative language that heavily influenced modern computing and operating systems like UNIX. In 1979, Bjarne Stroustrup began developing C++ at Bell Labs as an extension of C providing object-oriented programming with classes. Guido van Rossum designed Python in December 1989 at the Centrum Wiskunde & Informatica (CWI) in the Netherlands, releasing version 0.9.0 in February 1991 with a philosophy emphasizing code readability. In 1995, James Gosling and Sun Microsystems launched Java, implementing the \"Write Once, Run Anywhere\" principle via the Java Virtual Machine (JVM). In 2006, Graydon Hoare at Mozilla initiated the Rust programming language to provide memory safety and concurrency without garbage collection.",
+    "word_count": 181,
+    "char_count": 1291
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "quantum_computing.txt",
+    "text": "Quantum computing utilizes the principles of quantum mechanics such as superposition and entanglement to perform complex computations. Qubits can exist in multiple states simultaneously, allowing quantum computers to solve certain problems exponentially faster than classical computers.",
+    "word_count": 36,
+    "char_count": 286
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "scientist_biography.txt",
+    "text": "Alan Turing was an English mathematician, computer scientist, and cryptanalyst born on June 23, 1912, in London, United Kingdom. In 1936, Turing introduced the concept of a universal computing machine, now called the Turing machine, which established the foundational theoretical model for modern general-purpose computers. During World War II, Turing worked at Bletchley Park for the Government Code and Cypher School (GC&CS), playing a pivotal role in cracking intercepted coded messages. He designed an electromechanical machine known as the Bombe, which successfully deciphered the German Enigma machine cipher on an industrial scale. In 1945, Turing joined the National Physical Laboratory where he designed the Automatic Computing Engine (ACE), one of the first stored-program computer designs. In his 1950 paper titled \"Computing Machinery and Intelligence,\" Turing proposed an operational test for machine intelligence originally known as the Imitation Game, today widely called the Turing Test. Turing was elected a Fellow of the Royal Society in 1951. He passed away on June 7, 1954, in Wilmslow, Cheshire. In 2013, Queen Elizabeth II granted Alan Turing a posthumous royal pardon, recognizing his monumental contributions to wartime intelligence and computer science.",
+    "word_count": 187,
+    "char_count": 1278
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "solar_system.txt",
+    "text": "The Solar System consists of the Sun and the objects that orbit it. Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, often referred to as the Red Planet due to iron oxide on its surface. Jupiter is the largest planet.",
+    "word_count": 48,
+    "char_count": 259
+  },
+  {
+    "chunk_id": 0,
+    "doc_name": "world_geography.txt",
+    "text": "Physical geography studies the natural features and phenomena of planet Earth. Mount Everest, located in the Mahalangur Himal sub-range of the Himalayas along the border of Nepal and China, is Earth's highest mountain above sea level, reaching an officially recognized elevation of 8,848.86 meters. The Nile River in northeastern Africa is traditionally regarded as the longest river system on Earth, measuring approximately 6,650 kilometers in length and flowing through eleven African countries before discharging into the Mediterranean Sea. The Amazon River in South America possesses the largest drainage basin and the greatest average water discharge volume of any river system. The Pacific Ocean is the largest and deepest of Earth's oceanic divisions, covering an area exceeding 165 million square kilometers and containing the Mariana Trench, whose deepest point, Challenger Deep, descends approximately 10,928 meters below sea level. The Sahara Desert in Northern Africa is the largest hot desert on Earth, encompassing over 9.2 million square kilometers across twelve countries.",
+    "word_count": 159,
+    "char_count": 1088
+  }
+]

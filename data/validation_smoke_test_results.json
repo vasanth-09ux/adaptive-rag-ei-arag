@@ -1,0 +1,587 @@
+[
+  {
+    "id": "Q002",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_geo_02",
+    "notes": "Common geographical knowledge about Paris.",
+    "split": "validation",
+    "question": "On which river is the city of Paris located?",
+    "gold_answer": "Seine",
+    "direct_answer": "Seine River",
+    "rag_answer": "The city of Paris is located on the Seine River.",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "paris_geography.txt",
+        "chunk_id": 0,
+        "score": 0.8241
+      },
+      {
+        "doc_name": "world_geography.txt",
+        "chunk_id": 0,
+        "score": 0.4769
+      },
+      {
+        "doc_name": "historical_event.txt",
+        "chunk_id": 0,
+        "score": 0.4024
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 1351.5,
+      "retrieval": 187.61,
+      "rag_generation": 7507.86,
+      "rag_total": 7695.47
+    }
+  },
+  {
+    "id": "Q009",
+    "source": "gpu_architecture.txt",
+    "category": "distractor",
+    "fact_id": "gpu_arch_05",
+    "notes": "Passage contains multiple numerical specifications (896 cores, 4 GB, 128-bit, 2019) that can distract the model.",
+    "split": "validation",
+    "question": "How many CUDA cores are contained in the GeForce GTX 1650?",
+    "gold_answer": "896",
+    "direct_answer": "2304",
+    "rag_answer": "The GeForce GTX 1650 contains 896 CUDA cores.",
+    "direct_correct": false,
+    "rag_correct": true,
+    "label": 1,
+    "retrieved_sources": [
+      {
+        "doc_name": "gpu_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.8476
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.586
+      },
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.5075
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 982.11,
+      "retrieval": 21.64,
+      "rag_generation": 7991.06,
+      "rag_total": 8012.69
+    }
+  },
+  {
+    "id": "Q019",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_fund_02",
+    "notes": "Fundamental textbook machine learning taxonomy.",
+    "split": "validation",
+    "question": "What are the three primary categories of machine learning?",
+    "gold_answer": "supervised learning, unsupervised learning, and reinforcement learning",
+    "direct_answer": "Supervised, unsupervised, reinforcement.",
+    "rag_answer": "The three primary categories of machine learning are supervised learning, unsupervised learning, and reinforcement learning.",
+    "direct_correct": false,
+    "rag_correct": true,
+    "label": 1,
+    "retrieved_sources": [
+      {
+        "doc_name": "machine_learning_fundamentals.txt",
+        "chunk_id": 0,
+        "score": 0.7386
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.5505
+      },
+      {
+        "doc_name": "cellular_biology.txt",
+        "chunk_id": 0,
+        "score": 0.4933
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 1530.09,
+      "retrieval": 16.75,
+      "rag_generation": 9369.27,
+      "rag_total": 9386.01
+    }
+  },
+  {
+    "id": "Q023",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_fund_06",
+    "notes": "Specific mathematical foundation of backprop.",
+    "split": "validation",
+    "question": "Which mathematical rule of calculus is used by backpropagation to calculate loss gradients across neural layers?",
+    "gold_answer": "chain rule",
+    "direct_answer": "Chain Rule",
+    "rag_answer": "The backpropagation algorithm, popularized in 1986 by David Rumelhart, Geoffrey Hinton, and Ronald Williams, calculates gradients of the loss function across neural network layers using the chain rule of calculus.",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "machine_learning_fundamentals.txt",
+        "chunk_id": 0,
+        "score": 0.7419
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.5853
+      },
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.5741
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 765.53,
+      "retrieval": 32.29,
+      "rag_generation": 13375.2,
+      "rag_total": 13407.48
+    }
+  },
+  {
+    "id": "Q029",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_bio_02",
+    "notes": "Foundational computer science concept.",
+    "split": "validation",
+    "question": "What theoretical computing model did Alan Turing introduce in 1936?",
+    "gold_answer": "Turing machine",
+    "direct_answer": "Alan Turing introduced the theoretical computing model known as the Turing machine in 1936.",
+    "rag_answer": "In 1936, Alan Turing introduced the concept of a universal computing machine, which is now known as the Turing machine. This theoretical model laid the foundation for modern general-purpose computers.",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "scientist_biography.txt",
+        "chunk_id": 0,
+        "score": 0.8447
+      },
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.6677
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.6363
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 2661.09,
+      "retrieval": 36.11,
+      "rag_generation": 12702.86,
+      "rag_total": 12738.96
+    }
+  },
+  {
+    "id": "Q031",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_bio_04",
+    "notes": "Precise biographical birth date.",
+    "split": "validation",
+    "question": "What was the exact date of Alan Turing's birth?",
+    "gold_answer": "June 23, 1912",
+    "direct_answer": "June 23, 1912",
+    "rag_answer": "June 23, 1912",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "scientist_biography.txt",
+        "chunk_id": 0,
+        "score": 0.8012
+      },
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.5828
+      },
+      {
+        "doc_name": "historical_event.txt",
+        "chunk_id": 0,
+        "score": 0.5282
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 1643.31,
+      "retrieval": 22.57,
+      "rag_generation": 9286.27,
+      "rag_total": 9308.84
+    }
+  },
+  {
+    "id": "Q043",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_06",
+    "notes": "Third crew member often omitted in popular recall.",
+    "split": "validation",
+    "question": "Who was the Command Module Pilot who stayed in lunar orbit during the Apollo 11 landing?",
+    "gold_answer": "Michael Collins",
+    "direct_answer": "Michael Collins",
+    "rag_answer": "Michael Collins",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "historical_event.txt",
+        "chunk_id": 0,
+        "score": 0.7835
+      },
+      {
+        "doc_name": "scientist_biography.txt",
+        "chunk_id": 0,
+        "score": 0.468
+      },
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.4405
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 762.28,
+      "retrieval": 17.9,
+      "rag_generation": 8347.11,
+      "rag_total": 8365.02
+    }
+  },
+  {
+    "id": "Q056",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_elem_07",
+    "notes": "Specific melting point temperature.",
+    "split": "validation",
+    "question": "What is the melting point of Gold in degrees Celsius?",
+    "gold_answer": "1064.18",
+    "direct_answer": "1064°C",
+    "rag_answer": "Gold has a melting point of 1064.18 degrees Celsius.",
+    "direct_correct": false,
+    "rag_correct": true,
+    "label": 1,
+    "retrieved_sources": [
+      {
+        "doc_name": "chemical_elements.txt",
+        "chunk_id": 0,
+        "score": 0.6395
+      },
+      {
+        "doc_name": "world_geography.txt",
+        "chunk_id": 0,
+        "score": 0.547
+      },
+      {
+        "doc_name": "solar_system.txt",
+        "chunk_id": 0,
+        "score": 0.5073
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 1082.62,
+      "retrieval": 15.54,
+      "rag_generation": 7010.89,
+      "rag_total": 7026.42
+    }
+  },
+  {
+    "id": "Q061",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "comp_arch_02",
+    "notes": "Standard CPU internal component definition (ALU).",
+    "split": "validation",
+    "question": "Which component of the CPU is responsible for performing arithmetic and logical operations?",
+    "gold_answer": "Arithmetic Logic Unit",
+    "direct_answer": "ALU (Arithmetic Logic Unit)",
+    "rag_answer": "The Arithmetic Logic Unit (ALU) is responsible for performing arithmetic and logical operations within the CPU.",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.7428
+      },
+      {
+        "doc_name": "quantum_computing.txt",
+        "chunk_id": 0,
+        "score": 0.6255
+      },
+      {
+        "doc_name": "gpu_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.5903
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 1415.44,
+      "retrieval": 17.3,
+      "rag_generation": 6299.44,
+      "rag_total": 6316.74
+    }
+  },
+  {
+    "id": "Q067",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "comp_arch_08",
+    "notes": "Passage contrasts RISC (Reduced Instruction Set) directly with CISC (Complex Instruction Set).",
+    "split": "validation",
+    "question": "Which processor architecture design philosophy prioritizes a small set of simple, single-cycle instructions?",
+    "gold_answer": "Reduced Instruction Set Computer",
+    "direct_answer": "Minimalist architecture.",
+    "rag_answer": "Reduced Instruction Set Computer (RISC)",
+    "direct_correct": false,
+    "rag_correct": true,
+    "label": 1,
+    "retrieved_sources": [
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.7945
+      },
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.6147
+      },
+      {
+        "doc_name": "gpu_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.6049
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 981.04,
+      "retrieval": 18.89,
+      "rag_generation": 7174.56,
+      "rag_total": 7193.45
+    }
+  },
+  {
+    "id": "Q075",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_06",
+    "notes": "Specific programming language inception date.",
+    "split": "validation",
+    "question": "In what year did Bjarne Stroustrup begin developing C++ at Bell Labs?",
+    "gold_answer": "1979",
+    "direct_answer": "1980",
+    "rag_answer": "1979",
+    "direct_correct": false,
+    "rag_correct": true,
+    "label": 1,
+    "retrieved_sources": [
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.7136
+      },
+      {
+        "doc_name": "scientist_biography.txt",
+        "chunk_id": 0,
+        "score": 0.5864
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.5604
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 979.81,
+      "retrieval": 27.8,
+      "rag_generation": 8570.66,
+      "rag_total": 8598.45
+    }
+  },
+  {
+    "id": "Q079",
+    "source": "programming_language_history.txt",
+    "category": "distractor",
+    "fact_id": "prog_lang_10",
+    "notes": "Passage mentions C, C++, Fortran, and Lisp in close proximity.",
+    "split": "validation",
+    "question": "Bjarne Stroustrup developed C++ in 1979 as an extension of which existing programming language?",
+    "gold_answer": "C",
+    "direct_answer": "Bjarne Stroustrup developed C++ in 1979 as an extension of the C programming language.",
+    "rag_answer": "Bjarne Stroustrup developed C++ in 1979 as an extension of C.",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "programming_language_history.txt",
+        "chunk_id": 0,
+        "score": 0.7335
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.5688
+      },
+      {
+        "doc_name": "gpu_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.5624
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 3194.6,
+      "retrieval": 15.7,
+      "rag_generation": 8561.05,
+      "rag_total": 8576.75
+    }
+  },
+  {
+    "id": "Q090",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "cell_bio_01",
+    "notes": "Elementary biological definition.",
+    "split": "validation",
+    "question": "What are the fundamental structural and functional units of all living organisms?",
+    "gold_answer": "Cells",
+    "direct_answer": "Cells.",
+    "rag_answer": "The fundamental structural and functional units of all living organisms are cells.",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "cellular_biology.txt",
+        "chunk_id": 0,
+        "score": 0.778
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.6129
+      },
+      {
+        "doc_name": "chemical_elements.txt",
+        "chunk_id": 0,
+        "score": 0.5829
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 751.47,
+      "retrieval": 15.65,
+      "rag_generation": 8541.35,
+      "rag_total": 8557.0
+    }
+  },
+  {
+    "id": "Q093",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "cell_bio_04",
+    "notes": "Exact chemical molecule name (ATP).",
+    "split": "validation",
+    "question": "What form of chemical energy is produced by mitochondria through cellular respiration?",
+    "gold_answer": "adenosine triphosphate",
+    "direct_answer": "ATP (adenosine triphosphate)",
+    "rag_answer": "Mitochondria produce chemical energy in the form of adenosine triphosphate (ATP) through cellular respiration.",
+    "direct_correct": true,
+    "rag_correct": true,
+    "label": 0,
+    "retrieved_sources": [
+      {
+        "doc_name": "cellular_biology.txt",
+        "chunk_id": 0,
+        "score": 0.7409
+      },
+      {
+        "doc_name": "chemical_elements.txt",
+        "chunk_id": 0,
+        "score": 0.6021
+      },
+      {
+        "doc_name": "solar_system.txt",
+        "chunk_id": 0,
+        "score": 0.5627
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 1648.7,
+      "retrieval": 24.39,
+      "rag_generation": 8918.86,
+      "rag_total": 8943.25
+    }
+  },
+  {
+    "id": "Q096",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "cell_bio_07",
+    "notes": "Passage directly contrasts Prokaryotes (no nucleus) with Eukaryotes (membrane-bound nucleus).",
+    "split": "validation",
+    "question": "What type of cells lack a membrane-enclosed nucleus, such as bacteria and archaea?",
+    "gold_answer": "Prokaryotes",
+    "direct_answer": "Prokaryotic cells.",
+    "rag_answer": "Prokaryotes, such as bacteria and archaea, lack a membrane-enclosed nucleus.",
+    "direct_correct": false,
+    "rag_correct": true,
+    "label": 1,
+    "retrieved_sources": [
+      {
+        "doc_name": "cellular_biology.txt",
+        "chunk_id": 0,
+        "score": 0.7597
+      },
+      {
+        "doc_name": "chemical_elements.txt",
+        "chunk_id": 0,
+        "score": 0.537
+      },
+      {
+        "doc_name": "computer_architecture.txt",
+        "chunk_id": 0,
+        "score": 0.5334
+      }
+    ],
+    "retrieval_count": 3,
+    "latency_ms": {
+      "direct_generation": 1209.15,
+      "retrieval": 26.82,
+      "rag_generation": 10468.12,
+      "rag_total": 10494.94
+    }
+  }
+]

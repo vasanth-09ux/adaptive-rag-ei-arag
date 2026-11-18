@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "Q001",
+    "question": "What is the capital city of France?",
+    "gold_answer": "Paris",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_geo_01",
+    "notes": "Widely known capital city; base model knows this parametrically.",
+    "split": "train"
+  },
+  {
+    "id": "Q002",
+    "question": "On which river is the city of Paris located?",
+    "gold_answer": "Seine",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_geo_02",
+    "notes": "Common geographical knowledge about Paris.",
+    "split": "validation"
+  },
+  {
+    "id": "Q003",
+    "question": "What administrative region is Paris the center of?",
+    "gold_answer": "Île-de-France",
+    "source": "paris_geography.txt",
+    "category": "retrieval",
+    "fact_id": "paris_geo_03",
+    "notes": "Specific French administrative region name.",
+    "split": "train"
+  },
+  {
+    "id": "Q004",
+    "question": "Which cultural landmark in Paris besides the Eiffel Tower is explicitly named in the text?",
+    "gold_answer": "Louvre Museum",
+    "source": "paris_geography.txt",
+    "category": "distractor",
+    "fact_id": "paris_geo_04",
+    "notes": "Passage contains both Eiffel Tower and Louvre Museum alongside general terms like City of Light.",
+    "split": "train"
+  },
+  {
+    "id": "Q005",
+    "question": "What company manufactured the GeForce GTX 1650 graphics card?",
+    "gold_answer": "NVIDIA",
+    "source": "gpu_architecture.txt",
+    "category": "parametric",
+    "fact_id": "gpu_arch_01",
+    "notes": "NVIDIA GeForce is standard brand knowledge.",
+    "split": "train"
+  },
+  {
+    "id": "Q006",
+    "question": "In which year was the NVIDIA GeForce GTX 1650 launched?",
+    "gold_answer": "2019",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_arch_02",
+    "notes": "Specific hardware release year, frequently hallucinated by 1.5B models.",
+    "split": "test"
+  },
+  {
+    "id": "Q007",
+    "question": "What microarchitecture is the GTX 1650 graphics card built upon?",
+    "gold_answer": "Turing",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_arch_03",
+    "notes": "Specific GPU architecture generation name.",
+    "split": "train"
+  },
+  {
+    "id": "Q008",
+    "question": "Which processor model does the GTX 1650 GPU use?",
+    "gold_answer": "TU117",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_arch_04",
+    "notes": "Specific GPU silicon die codename.",
+    "split": "train"
+  },
+  {
+    "id": "Q009",
+    "question": "How many CUDA cores are contained in the GeForce GTX 1650?",
+    "gold_answer": "896",
+    "source": "gpu_architecture.txt",
+    "category": "distractor",
+    "fact_id": "gpu_arch_05",
+    "notes": "Passage contains multiple numerical specifications (896 cores, 4 GB, 128-bit, 2019) that can distract the model.",
+    "split": "validation"
+  },
+  {
+    "id": "Q010",
+    "question": "What central celestial body do objects in the Solar System orbit?",
+    "gold_answer": "Sun",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_sys_01",
+    "notes": "Fundamental elementary astronomy fact.",
+    "split": "train"
+  },
+  {
+    "id": "Q011",
+    "question": "What is the largest planet in our Solar System?",
+    "gold_answer": "Jupiter",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_sys_02",
+    "notes": "Standard planetary knowledge.",
+    "split": "train"
+  },
+  {
+    "id": "Q012",
+    "question": "What is the orbital order position of Mars from the Sun?",
+    "gold_answer": "fourth",
+    "source": "solar_system.txt",
+    "category": "retrieval",
+    "fact_id": "solar_sys_03",
+    "notes": "Specific ordinal position.",
+    "split": "train"
+  },
+  {
+    "id": "Q013",
+    "question": "Which planet is the second-smallest in the Solar System according to the text?",
+    "gold_answer": "Mars",
+    "source": "solar_system.txt",
+    "category": "distractor",
+    "fact_id": "solar_sys_04",
+    "notes": "Passage mentions both Mars (second-smallest) and Jupiter (largest), creating potential attribute confusion.",
+    "split": "train"
+  },
+  {
+    "id": "Q014",
+    "question": "What fundamental unit of information in quantum computing can exist in multiple states simultaneously?",
+    "gold_answer": "Qubits",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "quantum_comp_01",
+    "notes": "Qubit is the standard widely known quantum computing term.",
+    "split": "train"
+  },
+  {
+    "id": "Q015",
+    "question": "What type of computers are quantum computers compared to in terms of problem-solving speed?",
+    "gold_answer": "classical computers",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "quantum_comp_02",
+    "notes": "Standard baseline of comparison in computing.",
+    "split": "train"
+  },
+  {
+    "id": "Q016",
+    "question": "At what rate can quantum computers solve certain complex problems compared to traditional computers?",
+    "gold_answer": "exponentially faster",
+    "source": "quantum_computing.txt",
+    "category": "retrieval",
+    "fact_id": "quantum_comp_03",
+    "notes": "Exact theoretical speedup characterization from text.",
+    "split": "train"
+  },
+  {
+    "id": "Q017",
+    "question": "Which quantum mechanical principle allows particles to be interconnected such that one instantly affects another?",
+    "gold_answer": "entanglement",
+    "source": "quantum_computing.txt",
+    "category": "distractor",
+    "fact_id": "quantum_comp_04",
+    "notes": "Passage mentions both superposition and entanglement; models often confuse which principle governs instantaneous interconnection.",
+    "split": "train"
+  },
+  {
+    "id": "Q018",
+    "question": "Machine learning is a specialized branch of which broader scientific field?",
+    "gold_answer": "artificial intelligence",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_fund_01",
+    "notes": "Standard AI/ML hierarchy definition.",
+    "split": "train"
+  },
+  {
+    "id": "Q019",
+    "question": "What are the three primary categories of machine learning?",
+    "gold_answer": "supervised learning, unsupervised learning, and reinforcement learning",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_fund_02",
+    "notes": "Fundamental textbook machine learning taxonomy.",
+    "split": "validation"
+  },
+  {
+    "id": "Q020",
+    "question": "Which common loss function is used for regression tasks in machine learning?",
+    "gold_answer": "Mean Squared Error",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_fund_03",
+    "notes": "Standard regression loss metric.",
+    "split": "test"
+  },
+  {
+    "id": "Q021",
+    "question": "Which common loss function is applied to classification tasks?",
+    "gold_answer": "Cross-Entropy",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_fund_04",
+    "notes": "Standard classification loss metric.",
+    "split": "train"
+  },
+  {
+    "id": "Q022",
+    "question": "In what year was the backpropagation algorithm popularized by Rumelhart, Hinton, and Williams?",
+    "gold_answer": "1986",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_fund_05",
+    "notes": "Specific historical publication date for deep learning.",
+    "split": "train"
+  },
+  {
+    "id": "Q023",
+    "question": "Which mathematical rule of calculus is used by backpropagation to calculate loss gradients across neural layers?",
+    "gold_answer": "chain rule",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_fund_06",
+    "notes": "Specific mathematical foundation of backprop.",
+    "split": "validation"
+  },
+  {
+    "id": "Q024",
+    "question": "In what year was the Transformer architecture introduced in the paper 'Attention Is All You Need'?",
+    "gold_answer": "2017",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_fund_07",
+    "notes": "Specific seminal NLP publication date.",
+    "split": "test"
+  },
+  {
+    "id": "Q025",
+    "question": "Who was the lead author on the 2017 Transformer paper 'Attention Is All You Need'?",
+    "gold_answer": "Ashish Vaswani",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_fund_08",
+    "notes": "First author of Transformer paper.",
+    "split": "train"
+  },
+  {
+    "id": "Q026",
+    "question": "What mechanism did the Transformer architecture use to replace recurrent neural networks?",
+    "gold_answer": "self-attention",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "distractor",
+    "fact_id": "ml_fund_09",
+    "notes": "Passage mentions recurrent networks, self-attention, and backpropagation in proximity.",
+    "split": "train"
+  },
+  {
+    "id": "Q027",
+    "question": "Which specific regularization method is also referred to as Lasso regularization?",
+    "gold_answer": "L1 regularization",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "distractor",
+    "fact_id": "ml_fund_10",
+    "notes": "Passage lists L1 regularization (Lasso), L2 regularization (Ridge), and Dropout together.",
+    "split": "train"
+  },
+  {
+    "id": "Q028",
+    "question": "In which country was mathematician and codebreaker Alan Turing born?",
+    "gold_answer": "United Kingdom",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_bio_01",
+    "notes": "General biographical fact about Alan Turing.",
+    "split": "train"
+  },
+  {
+    "id": "Q029",
+    "question": "What theoretical computing model did Alan Turing introduce in 1936?",
+    "gold_answer": "Turing machine",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_bio_02",
+    "notes": "Foundational computer science concept.",
+    "split": "validation"
+  },
+  {
+    "id": "Q030",
+    "question": "What operational test for machine intelligence did Alan Turing propose in 1950?",
+    "gold_answer": "Turing Test",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_bio_03",
+    "notes": "Widely known benchmark for AI intelligence.",
+    "split": "test"
+  },
+  {
+    "id": "Q031",
+    "question": "What was the exact date of Alan Turing's birth?",
+    "gold_answer": "June 23, 1912",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_bio_04",
+    "notes": "Precise biographical birth date.",
+    "split": "validation"
+  },
+  {
+    "id": "Q032",
+    "question": "What was the official name of the wartime intelligence organization at Bletchley Park where Turing worked?",
+    "gold_answer": "Government Code and Cypher School",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_bio_05",
+    "notes": "Specific historical British intelligence organization name.",
+    "split": "test"
+  },
+  {
+    "id": "Q033",
+    "question": "What was the name of the electromechanical machine designed by Turing to decipher Enigma messages?",
+    "gold_answer": "Bombe",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_bio_06",
+    "notes": "Specific historical electromechanical device name.",
+    "split": "train"
+  },
+  {
+    "id": "Q034",
+    "question": "What computer design did Alan Turing create in 1945 at the National Physical Laboratory?",
+    "gold_answer": "Automatic Computing Engine",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_bio_07",
+    "notes": "Specific early computer design name (ACE).",
+    "split": "train"
+  },
+  {
+    "id": "Q035",
+    "question": "In which year was Alan Turing elected a Fellow of the Royal Society?",
+    "gold_answer": "1951",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_bio_08",
+    "notes": "Specific academic honor year.",
+    "split": "train"
+  },
+  {
+    "id": "Q036",
+    "question": "In which year did Queen Elizabeth II grant Alan Turing a posthumous royal pardon?",
+    "gold_answer": "2013",
+    "source": "scientist_biography.txt",
+    "category": "distractor",
+    "fact_id": "turing_bio_09",
+    "notes": "Passage contains multiple historical years (1912, 1936, 1945, 1950, 1951, 1954, 2013).",
+    "split": "train"
+  },
+  {
+    "id": "Q037",
+    "question": "What was the original title proposed by Turing in 1950 for what is now known as the Turing Test?",
+    "gold_answer": "Imitation Game",
+    "source": "scientist_biography.txt",
+    "category": "distractor",
+    "fact_id": "turing_bio_10",
+    "notes": "Passage mentions both 'Imitation Game' and 'Turing Test' for the same operational concept.",
+    "split": "train"
+  },
+  {
+    "id": "Q038",
+    "question": "What was the name of the first crewed space mission to land humans on the Moon?",
+    "gold_answer": "Apollo 11",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo11_01",
+    "notes": "Famous historical spaceflight mission name.",
+    "split": "train"
+  },
+  {
+    "id": "Q039",
+    "question": "Which US government agency launched the Apollo 11 lunar mission?",
+    "gold_answer": "NASA",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo11_02",
+    "notes": "US space agency is standard general knowledge.",
+    "split": "train"
+  },
+  {
+    "id": "Q040",
+    "question": "Who was the first human to walk on the surface of the Moon?",
+    "gold_answer": "Neil Armstrong",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo11_03",
+    "notes": "Universally known historical astronaut.",
+    "split": "train"
+  },
+  {
+    "id": "Q041",
+    "question": "From which launch facility in Florida did Apollo 11 lift off on July 16, 1969?",
+    "gold_answer": "Kennedy Space Center",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_04",
+    "notes": "Specific launch site name.",
+    "split": "train"
+  },
+  {
+    "id": "Q042",
+    "question": "What three-stage rocket propelled Apollo 11 into space?",
+    "gold_answer": "Saturn V",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_05",
+    "notes": "Specific launch vehicle model.",
+    "split": "train"
+  },
+  {
+    "id": "Q043",
+    "question": "Who was the Command Module Pilot who stayed in lunar orbit during the Apollo 11 landing?",
+    "gold_answer": "Michael Collins",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_06",
+    "notes": "Third crew member often omitted in popular recall.",
+    "split": "validation"
+  },
+  {
+    "id": "Q044",
+    "question": "What was the specific call sign of the Apollo 11 Lunar Module?",
+    "gold_answer": "Eagle",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_07",
+    "notes": "Specific spacecraft module name.",
+    "split": "test"
+  },
+  {
+    "id": "Q045",
+    "question": "How many minutes after Neil Armstrong did Buzz Aldrin step onto the lunar surface?",
+    "gold_answer": "nineteen",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_08",
+    "notes": "Specific elapsed time interval.",
+    "split": "train"
+  },
+  {
+    "id": "Q046",
+    "question": "What total weight of lunar rocks and soil samples did the Apollo 11 crew collect?",
+    "gold_answer": "21.55 kilograms",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_09",
+    "notes": "Exact scientific payload measurement.",
+    "split": "train"
+  },
+  {
+    "id": "Q047",
+    "question": "Which US Navy aircraft carrier recovered the Apollo 11 crew after splashdown in the Pacific Ocean?",
+    "gold_answer": "USS Hornet",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo11_10",
+    "notes": "Specific naval recovery vessel name.",
+    "split": "train"
+  },
+  {
+    "id": "Q048",
+    "question": "On what specific lunar landing area did the Apollo 11 Lunar Module touch down?",
+    "gold_answer": "Sea of Tranquility",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo11_11",
+    "notes": "Passage contains both English 'Sea of Tranquility' and Latin 'Mare Tranquillitatis'.",
+    "split": "test"
+  },
+  {
+    "id": "Q049",
+    "question": "What was the name of the Apollo 11 Command Module that safely splashed down in the Pacific Ocean?",
+    "gold_answer": "Columbia",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo11_12",
+    "notes": "Passage mentions both 'Columbia' (Command Module) and 'Eagle' (Lunar Module).",
+    "split": "train"
+  },
+  {
+    "id": "Q050",
+    "question": "What fundamental property determines the order of elements in the modern periodic table?",
+    "gold_answer": "atomic number",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_elem_01",
+    "notes": "Standard high-school chemistry principle.",
+    "split": "train"
+  },
+  {
+    "id": "Q051",
+    "question": "What is the atomic number of the element Hydrogen?",
+    "gold_answer": "1",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_elem_02",
+    "notes": "Elementary chemical element property.",
+    "split": "train"
+  },
+  {
+    "id": "Q052",
+    "question": "Which Russian chemist created the first widely recognized periodic table in 1869?",
+    "gold_answer": "Dmitri Mendeleev",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_elem_03",
+    "notes": "Famous creator of periodic table.",
+    "split": "train"
+  },
+  {
+    "id": "Q053",
+    "question": "What is the standard atomic weight of Hydrogen according to the text?",
+    "gold_answer": "1.008",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_elem_04",
+    "notes": "Precise standard atomic weight value.",
+    "split": "train"
+  },
+  {
+    "id": "Q054",
+    "question": "What is the boiling point of Helium in degrees Celsius?",
+    "gold_answer": "-268.93",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_elem_05",
+    "notes": "Precise thermodynamic measurement.",
+    "split": "train"
+  },
+  {
+    "id": "Q055",
+    "question": "What is the chemical symbol for Gold derived from the Latin word aurum?",
+    "gold_answer": "Au",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_elem_06",
+    "notes": "Standard elemental symbol.",
+    "split": "train"
+  },
+  {
+    "id": "Q056",
+    "question": "What is the melting point of Gold in degrees Celsius?",
+    "gold_answer": "1064.18",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_elem_07",
+    "notes": "Specific melting point temperature.",
+    "split": "validation"
+  },
+  {
+    "id": "Q057",
+    "question": "How many confirmed chemical elements are contained in the modern periodic table?",
+    "gold_answer": "118",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_elem_08",
+    "notes": "Exact count of recognized elements.",
+    "split": "test"
+  },
+  {
+    "id": "Q058",
+    "question": "What is the name of the heaviest confirmed synthetic element with atomic number 118?",
+    "gold_answer": "Oganesson",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_elem_09",
+    "notes": "Passage contains multiple element names (Hydrogen, Helium, Carbon, Gold, Oganesson).",
+    "split": "train"
+  },
+  {
+    "id": "Q059",
+    "question": "What radioactive isotope of Hydrogen is explicitly named in the text?",
+    "gold_answer": "tritium",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_elem_10",
+    "notes": "Passage lists three isotopes (protium, deuterium, tritium); distractor tests identifying the radioactive one.",
+    "split": "train"
+  },
+  {
+    "id": "Q060",
+    "question": "What does CPU stand for in computer architecture?",
+    "gold_answer": "Central Processing Unit",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "comp_arch_01",
+    "notes": "Universal computer engineering acronym.",
+    "split": "train"
+  },
+  {
+    "id": "Q061",
+    "question": "Which component of the CPU is responsible for performing arithmetic and logical operations?",
+    "gold_answer": "Arithmetic Logic Unit",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "comp_arch_02",
+    "notes": "Standard CPU internal component definition (ALU).",
+    "split": "validation"
+  },
+  {
+    "id": "Q062",
+    "question": "Which component of the CPU handles instruction sequencing and control signals?",
+    "gold_answer": "Control Unit",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "comp_arch_03",
+    "notes": "Standard CPU control component.",
+    "split": "test"
+  },
+  {
+    "id": "Q063",
+    "question": "In what year did John von Neumann publish the report describing the Von Neumann architecture?",
+    "gold_answer": "1945",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "comp_arch_04",
+    "notes": "Specific historical computer science report date.",
+    "split": "train"
+  },
+  {
+    "id": "Q064",
+    "question": "What is the fastest and smallest tier of storage in the computer memory hierarchy?",
+    "gold_answer": "registers",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "comp_arch_05",
+    "notes": "Top level of computer memory hierarchy.",
+    "split": "train"
+  },
+  {
+    "id": "Q065",
+    "question": "What are the four sequential stages of the fundamental instruction execution cycle?",
+    "gold_answer": "Fetch, Decode, Execute, and Writeback",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "comp_arch_06",
+    "notes": "Complete 4-stage CPU instruction pipeline.",
+    "split": "train"
+  },
+  {
+    "id": "Q066",
+    "question": "What fundamental law in computer architecture predicts the theoretical maximum speedup in parallel processing?",
+    "gold_answer": "Amdahl's Law",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "comp_arch_07",
+    "notes": "Named computer engineering law.",
+    "split": "train"
+  },
+  {
+    "id": "Q067",
+    "question": "Which processor architecture design philosophy prioritizes a small set of simple, single-cycle instructions?",
+    "gold_answer": "Reduced Instruction Set Computer",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "comp_arch_08",
+    "notes": "Passage contrasts RISC (Reduced Instruction Set) directly with CISC (Complex Instruction Set).",
+    "split": "validation"
+  },
+  {
+    "id": "Q068",
+    "question": "Give an example of a processor architecture categorized as CISC mentioned in the text.",
+    "gold_answer": "x86",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "comp_arch_09",
+    "notes": "Passage mentions both ARM (as RISC) and x86 (as CISC).",
+    "split": "train"
+  },
+  {
+    "id": "Q069",
+    "question": "Which cache level is listed immediately between L1 cache and L3 cache in the memory hierarchy?",
+    "gold_answer": "L2 cache",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "comp_arch_10",
+    "notes": "Passage lists L1, L2, and L3 caches in hierarchical succession.",
+    "split": "train"
+  },
+  {
+    "id": "Q070",
+    "question": "Who designed the Python programming language?",
+    "gold_answer": "Guido van Rossum",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "prog_lang_01",
+    "notes": "Widely known programming language creator.",
+    "split": "test"
+  },
+  {
+    "id": "Q071",
+    "question": "Which company originally developed and launched the Java programming language?",
+    "gold_answer": "Sun Microsystems",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "prog_lang_02",
+    "notes": "Standard software engineering history fact.",
+    "split": "train"
+  },
+  {
+    "id": "Q072",
+    "question": "What is the key core motto of Java achieved through the Java Virtual Machine?",
+    "gold_answer": "Write Once, Run Anywhere",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "prog_lang_03",
+    "notes": "Universal slogan of the Java platform.",
+    "split": "train"
+  },
+  {
+    "id": "Q073",
+    "question": "In what year was the Fortran programming language released by John Backus at IBM?",
+    "gold_answer": "1957",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_04",
+    "notes": "Specific historical programming language release year.",
+    "split": "train"
+  },
+  {
+    "id": "Q074",
+    "question": "Who developed the C programming language at Bell Labs between 1969 and 1973?",
+    "gold_answer": "Dennis Ritchie",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_05",
+    "notes": "Specific historical creator of C.",
+    "split": "train"
+  },
+  {
+    "id": "Q075",
+    "question": "In what year did Bjarne Stroustrup begin developing C++ at Bell Labs?",
+    "gold_answer": "1979",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_06",
+    "notes": "Specific programming language inception date.",
+    "split": "validation"
+  },
+  {
+    "id": "Q076",
+    "question": "In what month and year was Python conceived at CWI in the Netherlands?",
+    "gold_answer": "December 1989",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_07",
+    "notes": "Exact month and year of Python design.",
+    "split": "test"
+  },
+  {
+    "id": "Q077",
+    "question": "What initial version number of Python was released in February 1991?",
+    "gold_answer": "0.9.0",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_08",
+    "notes": "Specific historical software release version.",
+    "split": "train"
+  },
+  {
+    "id": "Q078",
+    "question": "Who initiated the design of the Rust programming language at Mozilla in 2006?",
+    "gold_answer": "Graydon Hoare",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_09",
+    "notes": "Specific creator of Rust.",
+    "split": "train"
+  },
+  {
+    "id": "Q079",
+    "question": "Bjarne Stroustrup developed C++ in 1979 as an extension of which existing programming language?",
+    "gold_answer": "C",
+    "source": "programming_language_history.txt",
+    "category": "distractor",
+    "fact_id": "prog_lang_10",
+    "notes": "Passage mentions C, C++, Fortran, and Lisp in close proximity.",
+    "split": "validation"
+  },
+  {
+    "id": "Q080",
+    "question": "Which early programming language created by John McCarthy in 1958 pioneered automatic garbage collection?",
+    "gold_answer": "Lisp",
+    "source": "programming_language_history.txt",
+    "category": "distractor",
+    "fact_id": "prog_lang_11",
+    "notes": "Passage mentions Fortran (1957), Lisp (1958), C (1969-1973), and Java.",
+    "split": "test"
+  },
+  {
+    "id": "Q081",
+    "question": "What primary core feature does Rust provide without needing a garbage collector?",
+    "gold_answer": "memory safety",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "prog_lang_12",
+    "notes": "Passage mentions memory safety, concurrency, and garbage collection across Lisp and Rust.",
+    "split": "train"
+  },
+  {
+    "id": "Q082",
+    "question": "What is the highest mountain on Earth above sea level?",
+    "gold_answer": "Mount Everest",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "world_geo_01",
+    "notes": "Universally known global geography fact.",
+    "split": "train"
+  },
+  {
+    "id": "Q083",
+    "question": "Which river in northeastern Africa is traditionally regarded as the longest river system on Earth?",
+    "gold_answer": "Nile River",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "world_geo_02",
+    "notes": "Standard world geography fact.",
+    "split": "train"
+  },
+  {
+    "id": "Q084",
+    "question": "What is the largest and deepest ocean on planet Earth?",
+    "gold_answer": "Pacific Ocean",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "world_geo_03",
+    "notes": "Elementary ocean geography knowledge.",
+    "split": "train"
+  },
+  {
+    "id": "Q085",
+    "question": "What is the officially recognized elevation of Mount Everest in meters?",
+    "gold_answer": "8,848.86",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "world_geo_04",
+    "notes": "Precise numerical elevation measurement.",
+    "split": "train"
+  },
+  {
+    "id": "Q086",
+    "question": "What is the approximate total length of the Nile River in kilometers?",
+    "gold_answer": "6,650",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "world_geo_05",
+    "notes": "Precise river length statistic.",
+    "split": "train"
+  },
+  {
+    "id": "Q087",
+    "question": "What is the approximate depth in meters of Challenger Deep in the Mariana Trench?",
+    "gold_answer": "10,928",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "world_geo_06",
+    "notes": "Precise oceanic depth statistic.",
+    "split": "train"
+  },
+  {
+    "id": "Q088",
+    "question": "Which river in South America possesses the greatest average water discharge volume on Earth?",
+    "gold_answer": "Amazon River",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "world_geo_07",
+    "notes": "Passage compares the Nile (longest) and Amazon (largest discharge volume).",
+    "split": "train"
+  },
+  {
+    "id": "Q089",
+    "question": "What is the largest hot desert on Earth, covering over 9.2 million square kilometers?",
+    "gold_answer": "Sahara Desert",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "world_geo_08",
+    "notes": "Passage mentions multiple geographical features and geographic regions across Africa.",
+    "split": "train"
+  },
+  {
+    "id": "Q090",
+    "question": "What are the fundamental structural and functional units of all living organisms?",
+    "gold_answer": "Cells",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "cell_bio_01",
+    "notes": "Elementary biological definition.",
+    "split": "validation"
+  },
+  {
+    "id": "Q091",
+    "question": "Which organelle is commonly referred to as the powerhouse of eukaryotic cells?",
+    "gold_answer": "Mitochondria",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "cell_bio_02",
+    "notes": "Universally taught high-school biology metaphor.",
+    "split": "test"
+  },
+  {
+    "id": "Q092",
+    "question": "What is the genetic molecule contained within the cell nucleus?",
+    "gold_answer": "DNA",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "cell_bio_03",
+    "notes": "Fundamental molecular biology term.",
+    "split": "train"
+  },
+  {
+    "id": "Q093",
+    "question": "What form of chemical energy is produced by mitochondria through cellular respiration?",
+    "gold_answer": "adenosine triphosphate",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "cell_bio_04",
+    "notes": "Exact chemical molecule name (ATP).",
+    "split": "validation"
+  },
+  {
+    "id": "Q094",
+    "question": "What type of cellular division results in two genetically identical diploid daughter cells?",
+    "gold_answer": "Mitosis",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "cell_bio_05",
+    "notes": "Specific biological cell division process.",
+    "split": "test"
+  },
+  {
+    "id": "Q095",
+    "question": "What are the four nitrogenous nucleotide bases found in DNA?",
+    "gold_answer": "adenine (A), thymine (T), cytosine (C), and guanine (G)",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "cell_bio_06",
+    "notes": "Exact four molecular base names with abbreviations.",
+    "split": "train"
+  },
+  {
+    "id": "Q096",
+    "question": "What type of cells lack a membrane-enclosed nucleus, such as bacteria and archaea?",
+    "gold_answer": "Prokaryotes",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "cell_bio_07",
+    "notes": "Passage directly contrasts Prokaryotes (no nucleus) with Eukaryotes (membrane-bound nucleus).",
+    "split": "validation"
+  },
+  {
+    "id": "Q097",
+    "question": "Which form of the endoplasmic reticulum is studded with ribosomes for protein synthesis?",
+    "gold_answer": "rough endoplasmic reticulum",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "cell_bio_08",
+    "notes": "Passage contrasts rough ER (with ribosomes) and smooth ER (lipid synthesis).",
+    "split": "test"
+  },
+  {
+    "id": "Q098",
+    "question": "What is the boiling point of pure water at standard atmospheric pressure in degrees Celsius?",
+    "gold_answer": "100",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "general_param_01",
+    "notes": "Universal scientific common knowledge, no corpus document needed.",
+    "split": "train"
+  },
+  {
+    "id": "Q099",
+    "question": "Who painted the Mona Lisa?",
+    "gold_answer": "Leonardo da Vinci",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "general_param_02",
+    "notes": "Universal art history general knowledge.",
+    "split": "train"
+  },
+  {
+    "id": "Q100",
+    "question": "What is the chemical formula for water?",
+    "gold_answer": "H2O",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "general_param_03",
+    "notes": "Elementary general science knowledge.",
+    "split": "train"
+  }
+]

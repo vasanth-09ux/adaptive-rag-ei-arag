@@ -1,0 +1,3102 @@
+[
+  {
+    "id": "EXP001",
+    "question": "What is the capital city of France?",
+    "gold_answer": "Paris",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP002",
+    "question": "On which river is the city of Paris situated?",
+    "gold_answer": "Seine",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP003",
+    "question": "What administrative region is Paris the center of?",
+    "gold_answer": "Île-de-France",
+    "source": "paris_geography.txt",
+    "category": "retrieval",
+    "fact_id": "paris_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP004",
+    "question": "Which world-famous museum is located in Paris alongside the Eiffel Tower?",
+    "gold_answer": "Louvre Museum",
+    "source": "paris_geography.txt",
+    "category": "distractor",
+    "fact_id": "paris_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP005",
+    "question": "What famous nickname is Paris internationally known as?",
+    "gold_answer": "City of Light",
+    "source": "paris_geography.txt",
+    "category": "retrieval",
+    "fact_id": "paris_05",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP006",
+    "question": "In which part of France is Paris situated?",
+    "gold_answer": "northern France",
+    "source": "paris_geography.txt",
+    "category": "retrieval",
+    "fact_id": "paris_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP007",
+    "question": "What is the most populous city in France?",
+    "gold_answer": "Paris",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP008",
+    "question": "Which famous iron lattice tower is an iconic cultural landmark of Paris?",
+    "gold_answer": "Eiffel Tower",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP009",
+    "question": "What country is Paris the capital of?",
+    "gold_answer": "France",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP010",
+    "question": "Which river flows through northern France and bisects Paris?",
+    "gold_answer": "Seine",
+    "source": "paris_geography.txt",
+    "category": "retrieval",
+    "fact_id": "paris_10",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP011",
+    "question": "Name the French administrative region whose center is Paris.",
+    "gold_answer": "Île-de-France",
+    "source": "paris_geography.txt",
+    "category": "retrieval",
+    "fact_id": "paris_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP012",
+    "question": "Is Paris located in northern or southern France?",
+    "gold_answer": "northern France",
+    "source": "paris_geography.txt",
+    "category": "retrieval",
+    "fact_id": "paris_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP013",
+    "question": "What is the official capital of the French Republic?",
+    "gold_answer": "Paris",
+    "source": "paris_geography.txt",
+    "category": "parametric",
+    "fact_id": "paris_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP014",
+    "question": "Which art museum in Paris is mentioned in the text?",
+    "gold_answer": "Louvre Museum",
+    "source": "paris_geography.txt",
+    "category": "distractor",
+    "fact_id": "paris_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP015",
+    "question": "What river runs through the center of the Île-de-France region?",
+    "gold_answer": "Seine",
+    "source": "paris_geography.txt",
+    "category": "distractor",
+    "fact_id": "paris_15",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP016",
+    "question": "What company manufactures the GeForce GTX 1650 graphics card?",
+    "gold_answer": "NVIDIA",
+    "source": "gpu_architecture.txt",
+    "category": "parametric",
+    "fact_id": "gpu_01",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP017",
+    "question": "In which year was the NVIDIA GeForce GTX 1650 launched?",
+    "gold_answer": "2019",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_02",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP018",
+    "question": "Which microarchitecture is the GeForce GTX 1650 graphics card built on?",
+    "gold_answer": "Turing",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_03",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP019",
+    "question": "What is the specific GPU processor model used in the GTX 1650?",
+    "gold_answer": "TU117",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_04",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP020",
+    "question": "How many CUDA cores are contained in the GeForce GTX 1650 GPU?",
+    "gold_answer": "896",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_05",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP021",
+    "question": "How many gigabytes of VRAM does the GTX 1650 graphics card have?",
+    "gold_answer": "4 GB",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP022",
+    "question": "What memory bus width in bits does the GTX 1650 use?",
+    "gold_answer": "128-bit",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP023",
+    "question": "What two types of GDDR memory can be found in the GTX 1650?",
+    "gold_answer": "GDDR5 or GDDR6",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP024",
+    "question": "Is the GeForce GTX 1650 designed for desktop and laptop computers?",
+    "gold_answer": "desktop and laptop",
+    "source": "gpu_architecture.txt",
+    "category": "distractor",
+    "fact_id": "gpu_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP025",
+    "question": "What architecture name succeeded Pascal in the GTX 1650?",
+    "gold_answer": "Turing",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_10",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP026",
+    "question": "What processor chip code is in the GTX 1650?",
+    "gold_answer": "TU117",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP027",
+    "question": "What is the exact core count of the GTX 1650?",
+    "gold_answer": "896 CUDA cores",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP028",
+    "question": "What bit-width memory interface connects the VRAM on the GTX 1650?",
+    "gold_answer": "128-bit",
+    "source": "gpu_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "gpu_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP029",
+    "question": "Does the GTX 1650 use 4 GB or 8 GB of VRAM?",
+    "gold_answer": "4 GB",
+    "source": "gpu_architecture.txt",
+    "category": "distractor",
+    "fact_id": "gpu_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP030",
+    "question": "Which graphics card launched in 2019 features 896 CUDA cores and TU117?",
+    "gold_answer": "GeForce GTX 1650",
+    "source": "gpu_architecture.txt",
+    "category": "distractor",
+    "fact_id": "gpu_15",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP031",
+    "question": "Which planet is the fourth planet from the Sun in our Solar System?",
+    "gold_answer": "Mars",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP032",
+    "question": "What central star do the objects in the Solar System orbit?",
+    "gold_answer": "Sun",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP033",
+    "question": "What is the largest planet in the Solar System?",
+    "gold_answer": "Jupiter",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP034",
+    "question": "Which chemical compound gives Mars its characteristic reddish color?",
+    "gold_answer": "iron oxide",
+    "source": "solar_system.txt",
+    "category": "retrieval",
+    "fact_id": "solar_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP035",
+    "question": "What common popular nickname is given to Mars due to its reddish appearance?",
+    "gold_answer": "Red Planet",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_05",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP036",
+    "question": "What is the second-smallest planet in the Solar System?",
+    "gold_answer": "Mars",
+    "source": "solar_system.txt",
+    "category": "distractor",
+    "fact_id": "solar_06",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP037",
+    "question": "What object is at the gravitational center of the Solar System?",
+    "gold_answer": "Sun",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_07",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP038",
+    "question": "Which planet lies immediately between Earth and Jupiter?",
+    "gold_answer": "Mars",
+    "source": "solar_system.txt",
+    "category": "distractor",
+    "fact_id": "solar_08",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP039",
+    "question": "What substance is responsible for the red surface of the fourth planet?",
+    "gold_answer": "iron oxide",
+    "source": "solar_system.txt",
+    "category": "retrieval",
+    "fact_id": "solar_09",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP040",
+    "question": "Is Jupiter or Mars the largest planet in the Solar System?",
+    "gold_answer": "Jupiter",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_10",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP041",
+    "question": "Which planet is known as the Red Planet?",
+    "gold_answer": "Mars",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP042",
+    "question": "What star do all eight planets in our solar system orbit?",
+    "gold_answer": "Sun",
+    "source": "solar_system.txt",
+    "category": "parametric",
+    "fact_id": "solar_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP043",
+    "question": "What is the second-smallest planet after Mercury mentioned in the text?",
+    "gold_answer": "Mars",
+    "source": "solar_system.txt",
+    "category": "distractor",
+    "fact_id": "solar_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP044",
+    "question": "What oxide gives Mars its rusty hue?",
+    "gold_answer": "iron oxide",
+    "source": "solar_system.txt",
+    "category": "retrieval",
+    "fact_id": "solar_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP045",
+    "question": "Which giant gas planet is identified as the largest planet in the text?",
+    "gold_answer": "Jupiter",
+    "source": "solar_system.txt",
+    "category": "distractor",
+    "fact_id": "solar_15",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP046",
+    "question": "What is the fundamental unit of quantum information corresponding to a classical bit?",
+    "gold_answer": "Qubits",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "qc_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP047",
+    "question": "Which quantum mechanical principle allows qubits to exist in multiple states simultaneously?",
+    "gold_answer": "superposition",
+    "source": "quantum_computing.txt",
+    "category": "retrieval",
+    "fact_id": "qc_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP048",
+    "question": "Which quantum mechanical principle allows particles to be interconnected such that one instantly affects another?",
+    "gold_answer": "entanglement",
+    "source": "quantum_computing.txt",
+    "category": "distractor",
+    "fact_id": "qc_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP049",
+    "question": "What branch of physics provides the fundamental principles underlying quantum computers?",
+    "gold_answer": "quantum mechanics",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "qc_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP050",
+    "question": "Can qubits exist in multiple states at the same time according to the text?",
+    "gold_answer": "multiple states simultaneously",
+    "source": "quantum_computing.txt",
+    "category": "distractor",
+    "fact_id": "qc_05",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP051",
+    "question": "What type of computation can solve certain complex problems exponentially faster than classical computers?",
+    "gold_answer": "Quantum computing",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "qc_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP052",
+    "question": "What two specific quantum principles are explicitly named in the text?",
+    "gold_answer": "superposition and entanglement",
+    "source": "quantum_computing.txt",
+    "category": "retrieval",
+    "fact_id": "qc_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP053",
+    "question": "What quantum property describes the phenomenon where two particles share identical states over distance?",
+    "gold_answer": "entanglement",
+    "source": "quantum_computing.txt",
+    "category": "distractor",
+    "fact_id": "qc_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP054",
+    "question": "What quantum state property allows simultaneous representation of 0 and 1?",
+    "gold_answer": "superposition",
+    "source": "quantum_computing.txt",
+    "category": "retrieval",
+    "fact_id": "qc_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP055",
+    "question": "What are the information-carrying units in quantum computation called?",
+    "gold_answer": "Qubits",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "qc_10",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP056",
+    "question": "What speedup can quantum computers achieve over classical computers for certain problems?",
+    "gold_answer": "exponentially faster",
+    "source": "quantum_computing.txt",
+    "category": "retrieval",
+    "fact_id": "qc_11",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP057",
+    "question": "What mechanical theory governs the behavior of qubits in quantum computing?",
+    "gold_answer": "quantum mechanics",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "qc_12",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP058",
+    "question": "Name the quantum principle where measuring one particle instantly determines the state of another.",
+    "gold_answer": "entanglement",
+    "source": "quantum_computing.txt",
+    "category": "distractor",
+    "fact_id": "qc_13",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP059",
+    "question": "What allows quantum systems to compute multiple states at once?",
+    "gold_answer": "superposition",
+    "source": "quantum_computing.txt",
+    "category": "retrieval",
+    "fact_id": "qc_14",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP060",
+    "question": "What is the basic information unit in a quantum computing device?",
+    "gold_answer": "Qubits",
+    "source": "quantum_computing.txt",
+    "category": "parametric",
+    "fact_id": "qc_15",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP061",
+    "question": "Which branch of artificial intelligence focuses on algorithms learning patterns from data?",
+    "gold_answer": "Machine learning",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP062",
+    "question": "What are the three primary categories of machine learning?",
+    "gold_answer": "supervised learning, unsupervised learning, and reinforcement learning",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP063",
+    "question": "Which type of machine learning uses labeled training datasets to learn mapping functions?",
+    "gold_answer": "Supervised learning",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP064",
+    "question": "What loss function is commonly used for regression tasks in machine learning?",
+    "gold_answer": "Mean Squared Error",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP065",
+    "question": "What loss function is commonly used for classification tasks in machine learning?",
+    "gold_answer": "Cross-Entropy loss",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_05",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP066",
+    "question": "What optimization algorithm iteratively updates model weights using loss gradients?",
+    "gold_answer": "Gradient Descent",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP067",
+    "question": "What variant of gradient descent updates weights using individual stochastic samples?",
+    "gold_answer": "Stochastic Gradient Descent",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP068",
+    "question": "In what year was the backpropagation algorithm popularized by Rumelhart, Hinton, and Williams?",
+    "gold_answer": "1986",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP069",
+    "question": "Which three researchers popularized the backpropagation algorithm in 1986?",
+    "gold_answer": "David Rumelhart, Geoffrey Hinton, and Ronald Williams",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP070",
+    "question": "What mathematical rule is used by backpropagation to calculate loss gradients across layers?",
+    "gold_answer": "chain rule of calculus",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_10",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP071",
+    "question": "What phenomenon occurs when a machine learning model learns noise from training data?",
+    "gold_answer": "Overfitting",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP072",
+    "question": "What is the common name for L1 regularization in machine learning?",
+    "gold_answer": "Lasso",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP073",
+    "question": "What is the common name for L2 regularization in machine learning?",
+    "gold_answer": "Ridge",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP074",
+    "question": "Which regularization technique randomly deactivates neurons during training?",
+    "gold_answer": "Dropout",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP075",
+    "question": "In what year was the Transformer neural network architecture introduced?",
+    "gold_answer": "2017",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_15",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP076",
+    "question": "What is the title of the seminal research paper that introduced the Transformer architecture?",
+    "gold_answer": "Attention Is All You Need",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_16",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP077",
+    "question": "Who was the lead author of the 2017 Transformer paper 'Attention Is All You Need'?",
+    "gold_answer": "Ashish Vaswani",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_17",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP078",
+    "question": "Which mechanism in Transformers replaced recurrent networks for natural language processing?",
+    "gold_answer": "self-attention",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "distractor",
+    "fact_id": "ml_18",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP079",
+    "question": "At which tech organization did Ashish Vaswani and his co-authors develop the Transformer?",
+    "gold_answer": "Google",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_19",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP080",
+    "question": "What hyperparameter controls the step size taken during gradient descent weight updates?",
+    "gold_answer": "learning rate",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_20",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP081",
+    "question": "What acronym represents the common regression loss function Mean Squared Error?",
+    "gold_answer": "MSE",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP082",
+    "question": "Which learning category maps inputs to continuous outputs in regression or discrete in classification?",
+    "gold_answer": "Supervised learning",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "distractor",
+    "fact_id": "ml_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP083",
+    "question": "What acronym is commonly used for Stochastic Gradient Descent?",
+    "gold_answer": "SGD",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP084",
+    "question": "Which calculus principle allows calculating derivatives backward through network layers?",
+    "gold_answer": "chain rule",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP085",
+    "question": "Name three regularization methods mentioned to prevent overfitting.",
+    "gold_answer": "L1 regularization, L2 regularization, and Dropout",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_25",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP086",
+    "question": "What type of neural networks did the Transformer replace in natural language processing?",
+    "gold_answer": "recurrent networks",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "distractor",
+    "fact_id": "ml_26",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP087",
+    "question": "What is the acronym for Machine Learning?",
+    "gold_answer": "ML",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_27",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP088",
+    "question": "In deep learning, what algorithm calculates gradients across multi-layer networks?",
+    "gold_answer": "backpropagation",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "parametric",
+    "fact_id": "ml_28",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP089",
+    "question": "Which type of loss is specifically paired with classification in the text?",
+    "gold_answer": "Cross-Entropy loss",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "retrieval",
+    "fact_id": "ml_29",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP090",
+    "question": "Who was the British cognitive psychologist who co-authored the 1986 backprop paper with Rumelhart?",
+    "gold_answer": "Geoffrey Hinton",
+    "source": "machine_learning_fundamentals.txt",
+    "category": "distractor",
+    "fact_id": "ml_30",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP091",
+    "question": "When was Alan Turing born?",
+    "gold_answer": "June 23, 1912",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP092",
+    "question": "In which city was Alan Turing born?",
+    "gold_answer": "London",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP093",
+    "question": "In what year did Alan Turing introduce the concept of the Turing machine?",
+    "gold_answer": "1936",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP094",
+    "question": "What theoretical model introduced in 1936 established the foundation for modern computers?",
+    "gold_answer": "Turing machine",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP095",
+    "question": "Where did Alan Turing work during World War II cracking intercepted coded messages?",
+    "gold_answer": "Bletchley Park",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_05",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP096",
+    "question": "What British government agency did Alan Turing work for at Bletchley Park?",
+    "gold_answer": "Government Code and Cypher School",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_06",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP097",
+    "question": "What electromechanical machine did Turing design to decipher German Enigma messages?",
+    "gold_answer": "Bombe",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_07",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP098",
+    "question": "Which German cipher machine did the Bombe decrypt on an industrial scale?",
+    "gold_answer": "Enigma machine",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_08",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP099",
+    "question": "What computer did Alan Turing design in 1945 at the National Physical Laboratory?",
+    "gold_answer": "Automatic Computing Engine",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_09",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP100",
+    "question": "What acronym stands for the Automatic Computing Engine designed by Turing?",
+    "gold_answer": "ACE",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_10",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP101",
+    "question": "What was the title of Alan Turing's landmark 1950 paper on machine intelligence?",
+    "gold_answer": "Computing Machinery and Intelligence",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP102",
+    "question": "What was the original name proposed by Turing for his test of machine intelligence?",
+    "gold_answer": "Imitation Game",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP103",
+    "question": "In what year was Alan Turing elected a Fellow of the Royal Society?",
+    "gold_answer": "1951",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP104",
+    "question": "On what date did Alan Turing pass away?",
+    "gold_answer": "June 7, 1954",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP105",
+    "question": "In which English town did Alan Turing die in 1954?",
+    "gold_answer": "Wilmslow",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_15",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP106",
+    "question": "Which British monarch granted Alan Turing a posthumous royal pardon in 2013?",
+    "gold_answer": "Queen Elizabeth II",
+    "source": "scientist_biography.txt",
+    "category": "distractor",
+    "fact_id": "turing_16",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP107",
+    "question": "In what year was Alan Turing granted a posthumous royal pardon?",
+    "gold_answer": "2013",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_17",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP108",
+    "question": "What operational test of artificial intelligence is named after Alan Turing?",
+    "gold_answer": "Turing Test",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_18",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP109",
+    "question": "What laboratory did Alan Turing join in 1945 to design the ACE computer?",
+    "gold_answer": "National Physical Laboratory",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_19",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP110",
+    "question": "What mathematical society was Alan Turing elected to as a Fellow in 1951?",
+    "gold_answer": "Royal Society",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_20",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP111",
+    "question": "What was Alan Turing's nationality?",
+    "gold_answer": "English",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP112",
+    "question": "What electromechanical deciphering device was deployed at Bletchley Park?",
+    "gold_answer": "Bombe",
+    "source": "scientist_biography.txt",
+    "category": "distractor",
+    "fact_id": "turing_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP113",
+    "question": "What military conflict did Turing contribute to through cryptanalysis?",
+    "gold_answer": "World War II",
+    "source": "scientist_biography.txt",
+    "category": "parametric",
+    "fact_id": "turing_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP114",
+    "question": "What is the acronym for the Government Code and Cypher School where Turing worked?",
+    "gold_answer": "GC&CS",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP115",
+    "question": "In what county is Wilmslow located where Turing passed away?",
+    "gold_answer": "Cheshire",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_25",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP116",
+    "question": "Which 1950 paper by Turing introduced the Imitation Game?",
+    "gold_answer": "Computing Machinery and Intelligence",
+    "source": "scientist_biography.txt",
+    "category": "distractor",
+    "fact_id": "turing_26",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP117",
+    "question": "What royal honor was bestowed on Alan Turing by Queen Elizabeth II in 2013?",
+    "gold_answer": "royal pardon",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_27",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP118",
+    "question": "What type of machine did Turing introduce in 1936 as a universal computing machine?",
+    "gold_answer": "Turing machine",
+    "source": "scientist_biography.txt",
+    "category": "distractor",
+    "fact_id": "turing_28",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP119",
+    "question": "What year did Alan Turing publish 'Computing Machinery and Intelligence'?",
+    "gold_answer": "1950",
+    "source": "scientist_biography.txt",
+    "category": "retrieval",
+    "fact_id": "turing_29",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP120",
+    "question": "What cipher machine was decrypted using the Bombe electromechanical machine?",
+    "gold_answer": "Enigma",
+    "source": "scientist_biography.txt",
+    "category": "distractor",
+    "fact_id": "turing_30",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP121",
+    "question": "Which US government agency launched the Apollo 11 lunar mission?",
+    "gold_answer": "NASA",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP122",
+    "question": "On what exact date was the Apollo 11 mission launched?",
+    "gold_answer": "July 16, 1969",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP123",
+    "question": "From which space facility in Florida did Apollo 11 lift off?",
+    "gold_answer": "Kennedy Space Center",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP124",
+    "question": "What three-stage rocket propelled Apollo 11 into space?",
+    "gold_answer": "Saturn V",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP125",
+    "question": "Who served as the Commander of the Apollo 11 mission?",
+    "gold_answer": "Neil Armstrong",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo_05",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP126",
+    "question": "Who served as the Command Module Pilot of Apollo 11?",
+    "gold_answer": "Michael Collins",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP127",
+    "question": "Who was the Lunar Module Pilot of the Apollo 11 mission?",
+    "gold_answer": "Edwin \"Buzz\" Aldrin",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP128",
+    "question": "What was the specific call sign name of the Apollo 11 Lunar Module?",
+    "gold_answer": "Eagle",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP129",
+    "question": "What was the call sign name of the Apollo 11 Command Module?",
+    "gold_answer": "Columbia",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP130",
+    "question": "On what exact date did the Apollo 11 Lunar Module land on the Moon?",
+    "gold_answer": "July 20, 1969",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_10",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP131",
+    "question": "On what lunar landing region did Apollo 11 touch down?",
+    "gold_answer": "Sea of Tranquility",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP132",
+    "question": "What is the Latin name for the Sea of Tranquility?",
+    "gold_answer": "Mare Tranquillitatis",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP133",
+    "question": "On what date did Neil Armstrong first set foot on the Moon?",
+    "gold_answer": "July 21, 1969",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP134",
+    "question": "Who was the first human to walk on the surface of the Moon?",
+    "gold_answer": "Neil Armstrong",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP135",
+    "question": "How many minutes after Neil Armstrong did Buzz Aldrin step onto the lunar surface?",
+    "gold_answer": "nineteen minutes",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_15",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP136",
+    "question": "How long in total did the Apollo 11 astronauts spend on the lunar surface?",
+    "gold_answer": "21 hours and 36 minutes",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_16",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP137",
+    "question": "What was the total duration of extravehicular activity (EVA) conducted on the Moon by Apollo 11?",
+    "gold_answer": "2 hours and 31 minutes",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_17",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP138",
+    "question": "What total mass in kilograms of lunar rocks and soil samples did Apollo 11 collect?",
+    "gold_answer": "21.55 kilograms",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_18",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP139",
+    "question": "On what date did the Apollo 11 Command Module splash down in the Pacific Ocean?",
+    "gold_answer": "July 24, 1969",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_19",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP140",
+    "question": "In which ocean did the Apollo 11 Columbia module splash down?",
+    "gold_answer": "Pacific Ocean",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo_20",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP141",
+    "question": "Which US Navy aircraft carrier recovered the Apollo 11 crew after splashdown?",
+    "gold_answer": "USS Hornet",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP142",
+    "question": "How many nautical miles southwest of Hawaii was the Apollo 11 splashdown location?",
+    "gold_answer": "812 nautical miles",
+    "source": "historical_event.txt",
+    "category": "retrieval",
+    "fact_id": "apollo_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP143",
+    "question": "What famous words did Neil Armstrong declare upon stepping onto the Moon?",
+    "gold_answer": "That's one small step for man, one giant leap for mankind",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP144",
+    "question": "Who remained in lunar orbit aboard the Command Module Columbia while Armstrong and Aldrin landed?",
+    "gold_answer": "Michael Collins",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP145",
+    "question": "How many stages did the Saturn V rocket have?",
+    "gold_answer": "three-stage",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo_25",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP146",
+    "question": "What celestial body did the Apollo 11 mission land humans on?",
+    "gold_answer": "Moon",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo_26",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP147",
+    "question": "Which astronaut joined Neil Armstrong on the Moon nineteen minutes later?",
+    "gold_answer": "Buzz Aldrin",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo_27",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP148",
+    "question": "What state was Kennedy Space Center located in?",
+    "gold_answer": "Florida",
+    "source": "historical_event.txt",
+    "category": "parametric",
+    "fact_id": "apollo_28",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP149",
+    "question": "What was the callsign of the Lunar Module that separated from Columbia?",
+    "gold_answer": "Eagle",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo_29",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP150",
+    "question": "Which aircraft carrier retrieved Armstrong, Aldrin, and Collins from the ocean?",
+    "gold_answer": "USS Hornet",
+    "source": "historical_event.txt",
+    "category": "distractor",
+    "fact_id": "apollo_30",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP151",
+    "question": "What fundamental property determines the order of elements in the modern periodic table?",
+    "gold_answer": "atomic number",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP152",
+    "question": "What is the lightest and most abundant chemical element in the universe?",
+    "gold_answer": "Hydrogen",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP153",
+    "question": "What is the atomic number of Hydrogen?",
+    "gold_answer": "1",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP154",
+    "question": "What is the standard atomic weight of Hydrogen?",
+    "gold_answer": "1.008",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP155",
+    "question": "Name the three natural isotopes of Hydrogen.",
+    "gold_answer": "protium, deuterium, and radioactive tritium",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_05",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP156",
+    "question": "What is the radioactive isotope of Hydrogen?",
+    "gold_answer": "tritium",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_06",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP157",
+    "question": "What is the atomic number of Helium?",
+    "gold_answer": "2",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_07",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP158",
+    "question": "What is the boiling point of Helium in degrees Celsius?",
+    "gold_answer": "-268.93 degrees Celsius",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_08",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP159",
+    "question": "What is the atomic number of Carbon?",
+    "gold_answer": "6",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_09",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP160",
+    "question": "Name three allotropes of Carbon mentioned in the text.",
+    "gold_answer": "diamond, graphite, and graphene",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_10",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP161",
+    "question": "What is the chemical symbol for Gold?",
+    "gold_answer": "Au",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP162",
+    "question": "From which Latin word is the chemical symbol for Gold derived?",
+    "gold_answer": "aurum",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP163",
+    "question": "What is the atomic number of Gold?",
+    "gold_answer": "79",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP164",
+    "question": "What is the melting point of Gold in degrees Celsius?",
+    "gold_answer": "1064.18 degrees Celsius",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP165",
+    "question": "Which Russian chemist created the first widely recognized periodic table in 1869?",
+    "gold_answer": "Dmitri Mendeleev",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_15",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP166",
+    "question": "In what year did Dmitri Mendeleev publish his periodic table?",
+    "gold_answer": "1869",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_16",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP167",
+    "question": "How many confirmed chemical elements are in the modern periodic table?",
+    "gold_answer": "118",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_17",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP168",
+    "question": "What is the name of the heaviest synthetic element with atomic number 118?",
+    "gold_answer": "Oganesson",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_18",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP169",
+    "question": "What is the chemical symbol for Oganesson?",
+    "gold_answer": "Og",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_19",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP170",
+    "question": "Which international chemistry body officially recognizes element 118 Oganesson?",
+    "gold_answer": "IUPAC",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_20",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP171",
+    "question": "What class of gas is Helium categorized as?",
+    "gold_answer": "noble gas",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP172",
+    "question": "What allotrope of carbon forms a 2D sheet of hexagonal carbon atoms?",
+    "gold_answer": "graphene",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP173",
+    "question": "By what property did Mendeleev arrange elements in 1869?",
+    "gold_answer": "atomic mass",
+    "source": "chemical_elements.txt",
+    "category": "retrieval",
+    "fact_id": "chem_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP174",
+    "question": "What transition metal has atomic number 79 and symbol Au?",
+    "gold_answer": "Gold",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP175",
+    "question": "What non-radioactive isotope of hydrogen has atomic mass 2?",
+    "gold_answer": "deuterium",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_25",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP176",
+    "question": "What is the hardest natural allotrope of Carbon mentioned?",
+    "gold_answer": "diamond",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_26",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP177",
+    "question": "Which element has the lowest boiling point of any element at -268.93 C?",
+    "gold_answer": "Helium",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_27",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP178",
+    "question": "What is the standard chemical symbol for Carbon?",
+    "gold_answer": "C",
+    "source": "chemical_elements.txt",
+    "category": "parametric",
+    "fact_id": "chem_28",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP179",
+    "question": "What is the atomic number of the element Oganesson?",
+    "gold_answer": "118",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_29",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP180",
+    "question": "What element has standard atomic weight 1.008?",
+    "gold_answer": "Hydrogen",
+    "source": "chemical_elements.txt",
+    "category": "distractor",
+    "fact_id": "chem_30",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP181",
+    "question": "What does CPU stand for in computer architecture?",
+    "gold_answer": "Central Processing Unit",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "ca_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP182",
+    "question": "In what year did John von Neumann publish the report describing the Von Neumann architecture?",
+    "gold_answer": "1945",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP183",
+    "question": "Who authored the 1945 foundational report describing the Von Neumann architecture?",
+    "gold_answer": "John von Neumann",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "ca_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP184",
+    "question": "What three core components constitute the Von Neumann architecture?",
+    "gold_answer": "Central Processing Unit (CPU), memory, and input/output mechanisms",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP185",
+    "question": "Which component of the CPU performs arithmetic and logical operations?",
+    "gold_answer": "Arithmetic Logic Unit",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "ca_05",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP186",
+    "question": "What acronym represents the Arithmetic Logic Unit in a CPU?",
+    "gold_answer": "ALU",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "ca_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP187",
+    "question": "Which component of the CPU handles instruction sequencing and control signals?",
+    "gold_answer": "Control Unit",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP188",
+    "question": "What acronym represents the Control Unit in a CPU?",
+    "gold_answer": "CU",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP189",
+    "question": "What is the fastest and smallest storage tier in the computer memory hierarchy?",
+    "gold_answer": "registers",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP190",
+    "question": "List the levels of the memory hierarchy from fastest to slowest.",
+    "gold_answer": "registers, L1 cache, L2 cache, L3 cache, main memory (Dynamic RAM), and non-volatile storage devices",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_10",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP191",
+    "question": "What type of RAM is commonly used for main memory?",
+    "gold_answer": "Dynamic RAM",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP192",
+    "question": "What does SSD stand for in storage devices?",
+    "gold_answer": "solid-state drives",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "ca_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP193",
+    "question": "What are the four sequential stages of the fundamental instruction execution cycle?",
+    "gold_answer": "Fetch, Decode, Execute, and Writeback",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP194",
+    "question": "What does RISC stand for in processor architecture?",
+    "gold_answer": "Reduced Instruction Set Computers",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP195",
+    "question": "Give an example of a processor architecture categorized as RISC.",
+    "gold_answer": "ARM",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_15",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP196",
+    "question": "What does CISC stand for in processor architecture?",
+    "gold_answer": "Complex Instruction Set Computers",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_16",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP197",
+    "question": "Give an example of a processor architecture categorized as CISC.",
+    "gold_answer": "x86",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_17",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP198",
+    "question": "What fundamental law in computer architecture predicts theoretical speedup in parallel processing?",
+    "gold_answer": "Amdahl's Law",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_18",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP199",
+    "question": "Which cache level is located immediately between L1 cache and L3 cache?",
+    "gold_answer": "L2 cache",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_19",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP200",
+    "question": "What processor design philosophy prioritizes simple, single-cycle instructions?",
+    "gold_answer": "Reduced Instruction Set Computer",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_20",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP201",
+    "question": "What stage immediately follows Fetch in the instruction cycle?",
+    "gold_answer": "Decode",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP202",
+    "question": "What stage immediately follows Execute in the four-phase instruction cycle?",
+    "gold_answer": "Writeback",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP203",
+    "question": "What formula calculates the maximum speedup achievable from parallelizing code?",
+    "gold_answer": "Amdahl's Law",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP204",
+    "question": "What shared buses connect CPU, memory, and I/O in the Von Neumann model?",
+    "gold_answer": "address and data buses",
+    "source": "computer_architecture.txt",
+    "category": "retrieval",
+    "fact_id": "ca_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP205",
+    "question": "Which architecture supports variable-length multi-step instructions?",
+    "gold_answer": "Complex Instruction Set Computers",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_25",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP206",
+    "question": "What is the acronym for Dynamic Random-Access Memory?",
+    "gold_answer": "DRAM",
+    "source": "computer_architecture.txt",
+    "category": "parametric",
+    "fact_id": "ca_26",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP207",
+    "question": "Which processor family is an industry example of CISC architecture?",
+    "gold_answer": "x86",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_27",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP208",
+    "question": "Which processor family is an industry example of RISC architecture?",
+    "gold_answer": "ARM",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_28",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP209",
+    "question": "What is the third stage in the instruction execution cycle?",
+    "gold_answer": "Execute",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_29",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP210",
+    "question": "What storage hierarchy tier sits between L3 cache and SSD storage?",
+    "gold_answer": "main memory",
+    "source": "computer_architecture.txt",
+    "category": "distractor",
+    "fact_id": "ca_30",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP211",
+    "question": "In what year was the Fortran programming language released?",
+    "gold_answer": "1957",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP212",
+    "question": "Who led the team at IBM that developed the Fortran programming language?",
+    "gold_answer": "John Backus",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP213",
+    "question": "What company developed and released Fortran in 1957?",
+    "gold_answer": "IBM",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP214",
+    "question": "What does the name Fortran stand for?",
+    "gold_answer": "Formula Translation",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP215",
+    "question": "In what year was the Lisp programming language created?",
+    "gold_answer": "1958",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_05",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP216",
+    "question": "Who created the Lisp programming language at MIT?",
+    "gold_answer": "John McCarthy",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_06",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP217",
+    "question": "At which university institute was Lisp created in 1958?",
+    "gold_answer": "Massachusetts Institute of Technology",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_07",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP218",
+    "question": "Which language created in 1958 pioneered automatic garbage collection?",
+    "gold_answer": "Lisp",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_08",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP219",
+    "question": "Who developed the C programming language at Bell Labs between 1969 and 1973?",
+    "gold_answer": "Dennis Ritchie",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_09",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP220",
+    "question": "Between which years was the C programming language developed at Bell Labs?",
+    "gold_answer": "1969 and 1973",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_10",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP221",
+    "question": "Which major operating system was heavily influenced and rewritten in C?",
+    "gold_answer": "UNIX",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP222",
+    "question": "In what year did Bjarne Stroustrup begin developing C++ at Bell Labs?",
+    "gold_answer": "1979",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP223",
+    "question": "Who created the C++ programming language at Bell Labs?",
+    "gold_answer": "Bjarne Stroustrup",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP224",
+    "question": "In what month and year was Python conceived at CWI?",
+    "gold_answer": "December 1989",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP225",
+    "question": "Who designed the Python programming language?",
+    "gold_answer": "Guido van Rossum",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_15",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP226",
+    "question": "At which research institute in the Netherlands was Python designed?",
+    "gold_answer": "Centrum Wiskunde & Informatica",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_16",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP227",
+    "question": "What initial version number of Python was released in February 1991?",
+    "gold_answer": "0.9.0",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_17",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP228",
+    "question": "In what month and year was Python version 0.9.0 released?",
+    "gold_answer": "February 1991",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_18",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP229",
+    "question": "In what year was the Java programming language launched?",
+    "gold_answer": "1995",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_19",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP230",
+    "question": "Who created the Java programming language at Sun Microsystems?",
+    "gold_answer": "James Gosling",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_20",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP231",
+    "question": "What company originally developed and launched Java in 1995?",
+    "gold_answer": "Sun Microsystems",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP232",
+    "question": "What is the core motto of Java achieved via the JVM?",
+    "gold_answer": "Write Once, Run Anywhere",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP233",
+    "question": "In what year did Graydon Hoare initiate the Rust programming language?",
+    "gold_answer": "2006",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP234",
+    "question": "Who initiated the design of Rust at Mozilla in 2006?",
+    "gold_answer": "Graydon Hoare",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP235",
+    "question": "At which tech organization was Rust initiated in 2006?",
+    "gold_answer": "Mozilla",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_25",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP236",
+    "question": "What core features does Rust provide without needing a garbage collector?",
+    "gold_answer": "memory safety and concurrency",
+    "source": "programming_language_history.txt",
+    "category": "distractor",
+    "fact_id": "pl_26",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP237",
+    "question": "What virtual machine enables Java's cross-platform execution?",
+    "gold_answer": "Java Virtual Machine",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_27",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP238",
+    "question": "What acronym represents the Dutch institute Centrum Wiskunde & Informatica?",
+    "gold_answer": "CWI",
+    "source": "programming_language_history.txt",
+    "category": "retrieval",
+    "fact_id": "pl_28",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP239",
+    "question": "What is the acronym for the Java Virtual Machine?",
+    "gold_answer": "JVM",
+    "source": "programming_language_history.txt",
+    "category": "parametric",
+    "fact_id": "pl_29",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP240",
+    "question": "Which programming language was developed as an extension of C with classes?",
+    "gold_answer": "C++",
+    "source": "programming_language_history.txt",
+    "category": "distractor",
+    "fact_id": "pl_30",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP241",
+    "question": "What is the highest mountain on Earth above sea level?",
+    "gold_answer": "Mount Everest",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP242",
+    "question": "What is the officially recognized elevation of Mount Everest in meters?",
+    "gold_answer": "8,848.86 meters",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP243",
+    "question": "In which mountain sub-range of the Himalayas is Mount Everest located?",
+    "gold_answer": "Mahalangur Himal",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP244",
+    "question": "Along the border of which two countries is Mount Everest located?",
+    "gold_answer": "Nepal and China",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP245",
+    "question": "Which river in northeastern Africa is traditionally regarded as the longest river?",
+    "gold_answer": "Nile River",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_05",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP246",
+    "question": "What is the approximate length of the Nile River in kilometers?",
+    "gold_answer": "6,650 kilometers",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP247",
+    "question": "How many African countries does the Nile River flow through?",
+    "gold_answer": "eleven",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP248",
+    "question": "Into which sea does the Nile River discharge its waters?",
+    "gold_answer": "Mediterranean Sea",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP249",
+    "question": "Which river in South America possesses the greatest water discharge volume on Earth?",
+    "gold_answer": "Amazon River",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP250",
+    "question": "What is the largest and deepest ocean on planet Earth?",
+    "gold_answer": "Pacific Ocean",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_10",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP251",
+    "question": "What is the total surface area covered by the Pacific Ocean in square kilometers?",
+    "gold_answer": "165 million square kilometers",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP252",
+    "question": "What is the deepest oceanic trench located in the Pacific Ocean?",
+    "gold_answer": "Mariana Trench",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP253",
+    "question": "What is the deepest point in the Mariana Trench called?",
+    "gold_answer": "Challenger Deep",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP254",
+    "question": "What is the approximate depth of Challenger Deep below sea level in meters?",
+    "gold_answer": "10,928 meters",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP255",
+    "question": "What is the largest hot desert on Earth?",
+    "gold_answer": "Sahara Desert",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_15",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP256",
+    "question": "What is the surface area of the Sahara Desert in square kilometers?",
+    "gold_answer": "9.2 million square kilometers",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_16",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP257",
+    "question": "Across how many countries does the Sahara Desert encompass land?",
+    "gold_answer": "twelve countries",
+    "source": "world_geography.txt",
+    "category": "retrieval",
+    "fact_id": "geo_17",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP258",
+    "question": "In which continent is the Sahara Desert situated?",
+    "gold_answer": "Northern Africa",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_18",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP259",
+    "question": "On which continent is the Amazon River located?",
+    "gold_answer": "South America",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_19",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP260",
+    "question": "In which mountain range are Mount Everest and the Mahalangur Himal located?",
+    "gold_answer": "Himalayas",
+    "source": "world_geography.txt",
+    "category": "parametric",
+    "fact_id": "geo_20",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP261",
+    "question": "What trench contains the Challenger Deep depression?",
+    "gold_answer": "Mariana Trench",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP262",
+    "question": "Which ocean contains Challenger Deep and covers over 165 million sq km?",
+    "gold_answer": "Pacific Ocean",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP263",
+    "question": "Which sea receives the outflow of the Nile River?",
+    "gold_answer": "Mediterranean Sea",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP264",
+    "question": "What is the elevation in meters of Earth's tallest peak?",
+    "gold_answer": "8,848.86 meters",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP265",
+    "question": "What river holds the world record for the largest drainage basin?",
+    "gold_answer": "Amazon River",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_25",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP266",
+    "question": "How many meters deep does Challenger Deep descend below sea level?",
+    "gold_answer": "10,928 meters",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_26",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP267",
+    "question": "What desert in Africa spans over 9.2 million square kilometers?",
+    "gold_answer": "Sahara Desert",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_27",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP268",
+    "question": "What river system measures approximately 6,650 km in length?",
+    "gold_answer": "Nile River",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_28",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP269",
+    "question": "Along which Asian border does Mount Everest stand?",
+    "gold_answer": "Nepal and China",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_29",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP270",
+    "question": "What body of water is the largest oceanic division on Earth?",
+    "gold_answer": "Pacific Ocean",
+    "source": "world_geography.txt",
+    "category": "distractor",
+    "fact_id": "geo_30",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP271",
+    "question": "What are the fundamental structural and functional units of biological organisms?",
+    "gold_answer": "cells",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP272",
+    "question": "Which class of organisms lack a membrane-enclosed nucleus?",
+    "gold_answer": "prokaryotes",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP273",
+    "question": "Name two examples of prokaryotic organisms mentioned in the text.",
+    "gold_answer": "bacteria and archaea",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP274",
+    "question": "Which class of organisms contain membrane-bound nuclei and specialized organelles?",
+    "gold_answer": "eukaryotes",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP275",
+    "question": "Name three kingdoms of eukaryotic organisms listed in the text.",
+    "gold_answer": "plants, animals, and fungi",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_05",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP276",
+    "question": "What double-layered lipid structure constitutes the cell membrane?",
+    "gold_answer": "phospholipid bilayer",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_06",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP277",
+    "question": "What structures embedded in the cell membrane selectively regulate molecular transport?",
+    "gold_answer": "transport proteins",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_07",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP278",
+    "question": "Which organelle is commonly known as the power plant or powerhouse of eukaryotic cells?",
+    "gold_answer": "Mitochondria",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_08",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP279",
+    "question": "In what chemical energy form do mitochondria generate cellular energy?",
+    "gold_answer": "adenosine triphosphate",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_09",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP280",
+    "question": "What acronym represents adenosine triphosphate in cellular metabolism?",
+    "gold_answer": "ATP",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_10",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP281",
+    "question": "Through which two processes do mitochondria generate ATP?",
+    "gold_answer": "cellular respiration and oxidative phosphorylation",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_11",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP282",
+    "question": "Which type of endoplasmic reticulum is studded with ribosomes?",
+    "gold_answer": "rough endoplasmic reticulum",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_12",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP283",
+    "question": "What primary function does the rough endoplasmic reticulum perform?",
+    "gold_answer": "protein synthesis",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_13",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP284",
+    "question": "Which type of endoplasmic reticulum synthesizes lipids and phospholipids?",
+    "gold_answer": "smooth endoplasmic reticulum",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_14",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP285",
+    "question": "What macromolecule in the cell nucleus contains genetic instructions?",
+    "gold_answer": "deoxyribonucleic acid",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_15",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP286",
+    "question": "What acronym represents deoxyribonucleic acid?",
+    "gold_answer": "DNA",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_16",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP287",
+    "question": "What are the four nitrogenous nucleotide bases found in DNA?",
+    "gold_answer": "adenine (A), thymine (T), cytosine (C), and guanine (G)",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_17",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP288",
+    "question": "What process of cell division results in two genetically identical diploid daughter cells?",
+    "gold_answer": "Mitosis",
+    "source": "cellular_biology.txt",
+    "category": "parametric",
+    "fact_id": "bio_18",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP289",
+    "question": "What type of daughter cells result from mitosis in terms of genetic ploidy?",
+    "gold_answer": "diploid daughter cells",
+    "source": "cellular_biology.txt",
+    "category": "retrieval",
+    "fact_id": "bio_19",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP290",
+    "question": "What organelle contains the DNA genetic instructions in eukaryotes?",
+    "gold_answer": "cell nucleus",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_20",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP291",
+    "question": "What cellular structures on the rough ER synthesize proteins?",
+    "gold_answer": "ribosomes",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_21",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP292",
+    "question": "What metabolic process produces ATP through oxidative phosphorylation?",
+    "gold_answer": "cellular respiration",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_22",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP293",
+    "question": "Do bacteria have membrane-bound nuclei?",
+    "gold_answer": "lack a membrane-enclosed nucleus",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_23",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP294",
+    "question": "What molecules are synthesized by the smooth endoplasmic reticulum?",
+    "gold_answer": "lipids and phospholipids",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_24",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP295",
+    "question": "Name the four DNA bases represented by the letters A, T, C, and G.",
+    "gold_answer": "adenine, thymine, cytosine, and guanine",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_25",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP296",
+    "question": "What fluid region of the cell is enclosed by the cell membrane?",
+    "gold_answer": "cytoplasm",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_26",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP297",
+    "question": "What organelle synthesizes ATP via cellular respiration?",
+    "gold_answer": "Mitochondria",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_27",
+    "notes": "",
+    "split": "validation"
+  },
+  {
+    "id": "EXP298",
+    "question": "Which cellular division yields identical diploid cells?",
+    "gold_answer": "Mitosis",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_28",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP299",
+    "question": "What embedded membrane components regulate molecular passage into the cytoplasm?",
+    "gold_answer": "transport proteins",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_29",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP300",
+    "question": "What is the lipid bilayer that surrounds the cytoplasm called?",
+    "gold_answer": "cell membrane",
+    "source": "cellular_biology.txt",
+    "category": "distractor",
+    "fact_id": "bio_30",
+    "notes": "",
+    "split": "test"
+  },
+  {
+    "id": "EXP301",
+    "question": "What is the chemical formula for pure water?",
+    "gold_answer": "H2O",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_01",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP302",
+    "question": "What is the boiling point of pure water at standard atmospheric pressure in degrees Celsius?",
+    "gold_answer": "100",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_02",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP303",
+    "question": "Who painted the Mona Lisa?",
+    "gold_answer": "Leonardo da Vinci",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_03",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP304",
+    "question": "What is the capital city of Japan?",
+    "gold_answer": "Tokyo",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_04",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP305",
+    "question": "How many days are in a leap year?",
+    "gold_answer": "366",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_05",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP306",
+    "question": "Who wrote the play Romeo and Juliet?",
+    "gold_answer": "William Shakespeare",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_06",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP307",
+    "question": "What is the speed of light in a vacuum in kilometers per second approximately?",
+    "gold_answer": "300,000",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_07",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP308",
+    "question": "What is the largest continent on Earth by land area?",
+    "gold_answer": "Asia",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_08",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP309",
+    "question": "What is the currency of the United Kingdom?",
+    "gold_answer": "Pound sterling",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_09",
+    "notes": "",
+    "split": "train"
+  },
+  {
+    "id": "EXP310",
+    "question": "What natural satellite orbits planet Earth?",
+    "gold_answer": "Moon",
+    "source": "parametric_general",
+    "category": "parametric",
+    "fact_id": "param_10",
+    "notes": "",
+    "split": "train"
+  }
+]

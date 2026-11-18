@@ -1,0 +1,109 @@
+{
+  "benchmark_total": 100,
+  "classifier_checkpoint": "models/classifier_expanded.pt",
+  "overall_metrics": {
+    "direct_accuracy": 0.59,
+    "rag_accuracy": 0.9,
+    "adaptive_accuracy": 0.64,
+    "adaptive_correct_count": 64,
+    "adaptive_incorrect_count": 36,
+    "adaptive_avg_latency_ms": 2070.16,
+    "adaptive_med_latency_ms": 1320.42,
+    "adaptive_min_latency_ms": 653.49,
+    "adaptive_max_latency_ms": 15469.29,
+    "routed_direct": 93,
+    "routed_rag": 7,
+    "retrieval_rate": 0.07
+  },
+  "category_metrics": {
+    "parametric": {
+      "total": 35,
+      "direct_acc": 0.8,
+      "rag_acc": 0.9429,
+      "adaptive_acc": 0.8,
+      "routed_direct": 35,
+      "routed_rag": 0
+    },
+    "retrieval": {
+      "total": 45,
+      "direct_acc": 0.4222,
+      "rag_acc": 0.8889,
+      "adaptive_acc": 0.4889,
+      "routed_direct": 40,
+      "routed_rag": 5
+    },
+    "distractor": {
+      "total": 20,
+      "direct_acc": 0.6,
+      "rag_acc": 0.85,
+      "adaptive_acc": 0.7,
+      "routed_direct": 18,
+      "routed_rag": 2
+    }
+  },
+  "routed_to_rag_queries": [
+    {
+      "id": "Q006",
+      "question": "In which year was the NVIDIA GeForce GTX 1650 launched?",
+      "category": "retrieval",
+      "classifier_probability": 0.5833,
+      "true_label": 1,
+      "direct_correct": false,
+      "rag_correct": true
+    },
+    {
+      "id": "Q009",
+      "question": "How many CUDA cores are contained in the GeForce GTX 1650?",
+      "category": "distractor",
+      "classifier_probability": 0.5671,
+      "true_label": 1,
+      "direct_correct": false,
+      "rag_correct": true
+    },
+    {
+      "id": "Q031",
+      "question": "What was the exact date of Alan Turing's birth?",
+      "category": "retrieval",
+      "classifier_probability": 0.5492,
+      "true_label": 0,
+      "direct_correct": true,
+      "rag_correct": true
+    },
+    {
+      "id": "Q035",
+      "question": "In which year was Alan Turing elected a Fellow of the Royal Society?",
+      "category": "retrieval",
+      "classifier_probability": 0.5691,
+      "true_label": 1,
+      "direct_correct": false,
+      "rag_correct": true
+    },
+    {
+      "id": "Q045",
+      "question": "How many minutes after Neil Armstrong did Buzz Aldrin step onto the lunar surface?",
+      "category": "retrieval",
+      "classifier_probability": 0.5708,
+      "true_label": 1,
+      "direct_correct": false,
+      "rag_correct": true
+    },
+    {
+      "id": "Q086",
+      "question": "What is the approximate total length of the Nile River in kilometers?",
+      "category": "retrieval",
+      "classifier_probability": 0.5608,
+      "true_label": 0,
+      "direct_correct": true,
+      "rag_correct": true
+    },
+    {
+      "id": "Q097",
+      "question": "Which form of the endoplasmic reticulum is studded with ribosomes for protein synthesis?",
+      "category": "distractor",
+      "classifier_probability": 0.5457,
+      "true_label": 1,
+      "direct_correct": false,
+      "rag_correct": true
+    }
+  ]
+}

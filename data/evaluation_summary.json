@@ -1,0 +1,174 @@
+{
+  "benchmark_total": 100,
+  "overall_metrics": {
+    "direct": {
+      "accuracy": 0.59,
+      "correct_count": 59,
+      "incorrect_count": 41,
+      "average_latency_ms": 1466.09,
+      "median_latency_ms": 1082.07,
+      "retrieval_calls": 0,
+      "retrieval_rate": 0.0
+    },
+    "baseline_rag": {
+      "accuracy": 0.9,
+      "correct_count": 90,
+      "incorrect_count": 10,
+      "average_latency_ms": 8665.74,
+      "median_latency_ms": 8414.09,
+      "retrieval_calls": 100,
+      "retrieval_rate": 1.0
+    },
+    "adaptive": {
+      "accuracy": 0.59,
+      "correct_count": 59,
+      "incorrect_count": 41,
+      "average_latency_ms": 1478.59,
+      "median_latency_ms": 1094.57,
+      "retrieval_calls": 0,
+      "retrieval_rate": 0.0,
+      "routed_direct": 100,
+      "routed_rag": 0,
+      "retrieval_calls_saved": 100,
+      "retrieval_reduction_percentage": 100.0
+    }
+  },
+  "statistical_differences": {
+    "accuracy_differences": {
+      "rag_minus_direct": 31.0,
+      "adaptive_minus_direct": 0.0,
+      "adaptive_minus_rag": -31.0
+    },
+    "latency_comparisons": {
+      "direct_vs_rag_savings_ms": 7199.65,
+      "adaptive_vs_rag_savings_ms": 7187.15,
+      "adaptive_latency_reduction_pct": 82.94
+    }
+  },
+  "category_metrics": {
+    "parametric": {
+      "total": 35,
+      "direct": {
+        "correct": 28,
+        "accuracy": 0.8
+      },
+      "baseline_rag": {
+        "correct": 33,
+        "accuracy": 0.9429
+      },
+      "adaptive": {
+        "correct": 28,
+        "accuracy": 0.8,
+        "routed_direct": 35,
+        "routed_rag": 0
+      }
+    },
+    "retrieval": {
+      "total": 45,
+      "direct": {
+        "correct": 19,
+        "accuracy": 0.4222
+      },
+      "baseline_rag": {
+        "correct": 40,
+        "accuracy": 0.8889
+      },
+      "adaptive": {
+        "correct": 19,
+        "accuracy": 0.4222,
+        "routed_direct": 45,
+        "routed_rag": 0
+      }
+    },
+    "distractor": {
+      "total": 20,
+      "direct": {
+        "correct": 12,
+        "accuracy": 0.6
+      },
+      "baseline_rag": {
+        "correct": 17,
+        "accuracy": 0.85
+      },
+      "adaptive": {
+        "correct": 12,
+        "accuracy": 0.6,
+        "routed_direct": 20,
+        "routed_rag": 0
+      }
+    }
+  },
+  "qualitative_cases_summary": {
+    "retrieval_regressions_count": 2,
+    "retrieval_benefits_count": 33,
+    "adaptive_matches_better_system_count": 2,
+    "adaptive_suboptimal_routing_count": 33
+  },
+  "regression_cases": [
+    {
+      "id": "Q017",
+      "question": "Which quantum mechanical principle allows particles to be interconnected such that one instantly affects another?",
+      "gold_answer": "entanglement",
+      "direct_answer": "Quantum entanglement allows particles to be interconnected such that one instantly affects another.",
+      "rag_answer": "Superposition",
+      "adaptive_answer": "Quantum entanglement allows particles to be interconnected such that one instantly affects another.",
+      "adaptive_routing_decision": "DIRECT"
+    },
+    {
+      "id": "Q070",
+      "question": "Who designed the Python programming language?",
+      "gold_answer": "Guido van Rossum",
+      "direct_answer": "Guido van Rossum designed the Python programming language.",
+      "rag_answer": "Bjarne Stroustrup designed the Python programming language.",
+      "adaptive_answer": "Guido van Rossum designed the Python programming language.",
+      "adaptive_routing_decision": "DIRECT"
+    }
+  ],
+  "sample_benefit_cases": [
+    {
+      "id": "Q004",
+      "question": "Which cultural landmark in Paris besides the Eiffel Tower is explicitly named in the text?",
+      "gold_answer": "Louvre Museum",
+      "direct_answer": "Nottingham Castle",
+      "rag_answer": "The Louvre Museum is explicitly named as a cultural landmark in Paris besides the Eiffel Tower.",
+      "adaptive_answer": "Nottingham Castle",
+      "adaptive_routing_decision": "DIRECT"
+    },
+    {
+      "id": "Q006",
+      "question": "In which year was the NVIDIA GeForce GTX 1650 launched?",
+      "gold_answer": "2019",
+      "direct_answer": "2018",
+      "rag_answer": "2019",
+      "adaptive_answer": "2018",
+      "adaptive_routing_decision": "DIRECT"
+    },
+    {
+      "id": "Q008",
+      "question": "Which processor model does the GTX 1650 GPU use?",
+      "gold_answer": "TU117",
+      "direct_answer": "NVIDIA GeForce GTX 1650 uses the Turing architecture.",
+      "rag_answer": "The GTX 1650 GPU uses the TU117 processor.",
+      "adaptive_answer": "NVIDIA GeForce GTX 1650 uses the Turing architecture.",
+      "adaptive_routing_decision": "DIRECT"
+    },
+    {
+      "id": "Q009",
+      "question": "How many CUDA cores are contained in the GeForce GTX 1650?",
+      "gold_answer": "896",
+      "direct_answer": "2304",
+      "rag_answer": "The GeForce GTX 1650 contains 896 CUDA cores.",
+      "adaptive_answer": "2304",
+      "adaptive_routing_decision": "DIRECT"
+    },
+    {
+      "id": "Q012",
+      "question": "What is the orbital order position of Mars from the Sun?",
+      "gold_answer": "fourth",
+      "direct_answer": "2nd position",
+      "rag_answer": "The orbital order position of Mars from the Sun is the fourth.",
+      "adaptive_answer": "2nd position",
+      "adaptive_routing_decision": "DIRECT"
+    }
+  ]
+}
