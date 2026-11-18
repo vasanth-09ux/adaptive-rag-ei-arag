@@ -1,0 +1,35 @@
+# Adaptive-RAG Environment Requirements
+# Generated from verified active virtual environment (.venv)
+# Python 3.11.7, CUDA 12.1, PyTorch 2.5.1+cu121
+
+# Deep Learning & Hardware Acceleration
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# Core Transformers & LLM Inference
+transformers==5.15.1
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface_hub==1.28.0
+
+# Retrieval & Vector Database
+faiss-cpu==1.15.0
+sentence-transformers==6.0.0
+
+# Machine Learning & Numerical Computing
+scikit-learn==1.9.0
+scipy==1.17.1
+numpy==2.4.6
+
+# Core Utilities
+tqdm==4.70.0
+PyYAML==6.0.3
+regex==2026.7.19
+packaging==26.3
+filelock==3.32.3
+click==8.4.2
+colorama==0.4.6
+rich==15.0.0
+joblib==1.5.3
+threadpoolctl==3.6.0
